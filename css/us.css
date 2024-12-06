@@ -1,0 +1,517 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', serif; /* Cambia la fuente aquí */
+}
+
+body {
+    background-color:#ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Estilos del menú superior */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 10px 14px;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    font-size: bold;
+}
+/* Logo y menú */
+.logo-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logo-info .icon {
+    font-size: 50px;
+    color: #000000;
+}
+
+.logo-info h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Ocultar el ícono del menú en pantallas grandes */
+#menu {
+    display: none !important;
+}
+
+/* Mostrar el ícono del menú solo en pantallas pequeñas */
+@media (max-width: 768px) {
+    #menu {
+        display: block !important;
+        margin-top: 18px;
+    }
+}
+
+/* Estilos de los enlaces del menú */
+.sidebar ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    list-style: none;
+    padding: 0;
+    gap: 50px; /* Espacio entre los elementos */
+    font-size: bold;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    margin: 0; /* Elimina el margen lateral */
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center; /* Centra el contenido de cada enlace */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color: #000000; /* Cambia esto si deseas un color diferente para el texto */
+}
+
+.sidebar ul li a i {
+    font-size: 26px; /* Tamaño de los iconos */
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+
+.sidebar ul li a:hover {
+    background: #fff9f9;
+}
+
+
+/* -------------------------Sidebar en pantallas pequeñas-------------------------------------------- */
+@media (max-width: 768px) {
+    .sidebar {
+        display: flex;
+        align-items: flex-start; /* Alinear elementos en la parte superior */
+        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+        position: fixed;
+        z-index: 1000; /* Asegúrate de que el sidebar esté por encima de otros elementos */
+    }
+
+    
+    /* Menú */
+    .sidebar ul {
+        display: none; /* Ocultar el menú por defecto */
+        flex-direction: column; /* Alinear los elementos de la lista verticalmente */
+        width: 60%; /* Asegúrate de que el menú ocupe todo el ancho */
+        margin-top: 20px;
+        z-index: 100; /* Asegúrate de que el menú esté por encima de las imágenes y otros elementos */
+    }
+
+    /* Asegúrate de mostrar el menú cuando tenga la clase 'show' */
+    .sidebar ul.show {
+        display: flex; /* Muestra el menú cuando tiene la clase 'show' */
+    }
+
+    /* Estilos para los íconos en el menú */
+    .sidebar ul li {
+        background-color: rgba(0, 0, 0, 0.42);
+        margin: -7px;
+        border: solid black 1px 1px 1px 1px ;
+        border-radius: 10px;
+        margin: -10px;
+    }
+
+    .sidebar ul li a:hover {
+        background: #ffeded;
+        color: #000;
+        margin: -7px;
+        border-radius: -10px;
+        overflow: hidden;
+    }
+
+    .sidebar ul li a {
+        display: flex; /* Usar flexbox para alinear icono y texto */
+        align-items: center; /* Centrar verticalmente el contenido */
+        color: #ffffff; /* Color del texto */
+        font-weight: bold;
+        text-decoration: none; /* Sin subrayado en los enlaces */
+        width: 100%; /* Asegúrate de que los enlaces ocupen todo el ancho */
+        box-sizing: border-box; /* Evita que el padding afecte el tamaño del elemento */
+    }
+
+    .sidebar ul li a i {
+        margin-right: 10px; /* Espacio entre el ícono y el texto */
+    }
+
+    /* Asegúrate que el icono de menú sólo aparezca en pantallas pequeñas */
+    #menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #000000;
+        margin-top: 18px;
+        z-index: 1200; /* Asegura que el ícono del menú esté sobre las imágenes */
+    }
+
+    /* Ajustes adicionales para pantallas muy pequeñas */
+    @media (max-width: 480px) {
+        .sidebar ul li a .title {
+            font-size: 13px;
+        }
+
+        .logo-info h2 {
+            font-size: 25px;
+            margin-top: 15px;
+        }
+    }
+}
+
+/* En pantallas grandes, ocultamos el ícono del menú */
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+    
+}
+/* ------------------------- Contenido central -------------------------------------------- */
+.intro-section {
+    background-image: url('../backgrounds/us.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh; /* La sección ocupa toda la pantalla */
+    position: relative; /* Permite superponer contenido */
+}
+
+/* Overlay para suavizar el fondo */
+.intro-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 59, 59, 0.5); /* Capa translúcida negra */
+    z-index: 1; /* Asegura que esté detrás del texto */
+}
+
+/* Estilo del texto para que esté encima del overlay */
+.intro-text {
+    position: relative; /* Asegura que el texto esté por encima del overlay */
+    z-index: 2; /* Coloca el texto encima del overlay */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #000000; /* Texto blanco para contrastar con el fondo */
+    margin-bottom: 40px; /* Asegura suficiente espacio debajo del texto para la flecha */
+}
+
+/* Estilo para el texto dentro de la sección de presentación */
+.intro-text h1 {
+    color: #000000;
+    font-size: 3rem; /* Tamaño grande para el título */
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    margin-bottom: 20px;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(-20px); /* Comienza un poco más arriba */
+    animation: fadeIn 1.5s forwards; /* Animación de entrada */
+}
+
+.intro-text p {
+    color: #000000;
+    font-size: 35px; /* Tamaño del subtítulo */
+    font-family: 'Source Serif 4', serif;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(20px); /* Comienza un poco más abajo */
+    animation: fadeIn 1.5s forwards 0.5s; /* Aparece después del título */
+}
+
+/* Animación para hacer que el texto aparezca suavemente */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para la flecha */
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-left: 4px solid #000000;
+    border-bottom: 4px solid #fff;
+    transform: rotate(-45deg);
+    animation: bounce 1.5s infinite;
+    margin-top: 130px; /* Se asegura que la flecha esté centrada verticalmente */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(-45deg);
+    }
+    40% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    60% {
+        transform: translateY(5px) rotate(-45deg);
+    }
+}
+/*-------------------------little message--------------------- */
+.littlemessage {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #060505;
+}
+
+/*----------------------------------------------------------------US------------------------------------------------------------------------------------------ */
+/* General Layout */
+.info-box-main {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.wrapper-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column-half {
+    width: 48%;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.column-full {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.column-quarter {
+    width: 22%;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Heading Styles */
+.heading-title {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading-title span {
+    color: #1b1717; /* Tomato */
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Image and Content */
+.image-frame img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.thumbnail-image {
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Feature Box */
+.feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.feature-box h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Team Section */
+.hover-effect-team {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect-team:hover {
+    transform: scale(1.05);
+}
+
+.team-member {
+    position: relative;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.member-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.member-position {
+    font-size: 1em;
+    color: #ff6347; /* Tomato */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #ff6347; /* Tomato */
+}
+
+.additional-info-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.team-description {
+    font-size: 1em;
+    color: #666;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-top: 1px solid #ddd;
+}
+
+hr.no-margin {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .column-half {
+        width: 100%;
+    }
+
+    .column-quarter {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .column-quarter {
+        width: 100%;
+    }
+
+    .feature-box {
+        padding: 15px;
+    }
+}
+
+/* Animation Class */
+.appear {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}

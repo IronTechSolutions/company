@@ -1,0 +1,356 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', serif; /* Cambia la fuente aquí */
+}
+
+body {
+    background-color:#ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Estilos del menú superior */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 10px 14px;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    font-size: bold;
+}
+/* Logo y menú */
+.logo-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logo-info .icon {
+    font-size: 50px;
+    color: #000000;
+}
+
+.logo-info h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Ocultar el ícono del menú en pantallas grandes */
+#menu {
+    display: none !important;
+}
+
+/* Mostrar el ícono del menú solo en pantallas pequeñas */
+@media (max-width: 768px) {
+    #menu {
+        display: block !important;
+        margin-top: 18px;
+    }
+}
+
+/* Estilos de los enlaces del menú */
+.sidebar ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    list-style: none;
+    padding: 0;
+    gap: 50px; /* Espacio entre los elementos */
+    font-size: bold;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    margin: 0; /* Elimina el margen lateral */
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center; /* Centra el contenido de cada enlace */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color: #000000; /* Cambia esto si deseas un color diferente para el texto */
+}
+
+.sidebar ul li a i {
+    font-size: 26px; /* Tamaño de los iconos */
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+
+.sidebar ul li a:hover {
+    background: #000000;
+    color: #ffeded;
+}
+
+
+/* -------------------------Sidebar en pantallas pequeñas-------------------------------------------- */
+@media (max-width: 768px) {
+    .sidebar {
+        display: flex;
+        align-items: flex-start; /* Alinear elementos en la parte superior */
+        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+        position: fixed;
+        z-index: 1000; /* Asegúrate de que el sidebar esté por encima de otros elementos */
+    }
+
+    
+    /* Menú */
+    .sidebar ul {
+        display: none; /* Ocultar el menú por defecto */
+        flex-direction: column; /* Alinear los elementos de la lista verticalmente */
+        width: 60%; /* Asegúrate de que el menú ocupe todo el ancho */
+        margin-top: 20px;
+        z-index: 100; /* Asegúrate de que el menú esté por encima de las imágenes y otros elementos */
+    }
+
+    /* Asegúrate de mostrar el menú cuando tenga la clase 'show' */
+    .sidebar ul.show {
+        display: flex; /* Muestra el menú cuando tiene la clase 'show' */
+    }
+
+    /* Estilos para los íconos en el menú */
+    .sidebar ul li {
+        background-color: rgba(0, 0, 0, 0.42);
+        margin: -7px;
+        border: solid black 1px 1px 1px 1px ;
+        border-radius: 10px;
+        margin: -10px;
+    }
+
+    .sidebar ul li a:hover {
+        background: #ffeded;
+        color: #000;
+        margin: -7px;
+        border-radius: -10px;
+        overflow: hidden;
+    }
+
+    .sidebar ul li a {
+        display: flex; /* Usar flexbox para alinear icono y texto */
+        align-items: center; /* Centrar verticalmente el contenido */
+        color: #ffffff; /* Color del texto */
+        font-weight: bold;
+        text-decoration: none; /* Sin subrayado en los enlaces */
+        width: 100%; /* Asegúrate de que los enlaces ocupen todo el ancho */
+        box-sizing: border-box; /* Evita que el padding afecte el tamaño del elemento */
+    }
+
+    .sidebar ul li a i {
+        margin-right: 10px; /* Espacio entre el ícono y el texto */
+    }
+
+    /* Asegúrate que el icono de menú sólo aparezca en pantallas pequeñas */
+    #menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #000000;
+        margin-top: 18px;
+        z-index: 1200; /* Asegura que el ícono del menú esté sobre las imágenes */
+    }
+
+    /* Ajustes adicionales para pantallas muy pequeñas */
+    @media (max-width: 480px) {
+        .sidebar ul li a .title {
+            font-size: 13px;
+        }
+
+        .logo-info h2 {
+            font-size: 25px;
+            margin-top: 15px;
+        }
+    }
+}
+
+/* En pantallas grandes, ocultamos el ícono del menú */
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+    
+}
+
+/* ------------------------- Contenido central -------------------------------------------- */
+.intro-section {
+    background-image: url('../backgrounds/develop.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh; /* La sección ocupa toda la pantalla */
+    position: relative; /* Permite superponer contenido */
+}
+
+/* Overlay para suavizar el fondo */
+.intro-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 59, 59, 0.5); /* Capa translúcida negra */
+    z-index: 1; /* Asegura que esté detrás del texto */
+}
+
+/* Estilo del texto para que esté encima del overlay */
+.intro-text {
+    position: relative; /* Asegura que el texto esté por encima del overlay */
+    z-index: 2; /* Coloca el texto encima del overlay */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #000000; /* Texto blanco para contrastar con el fondo */
+    margin-bottom: 40px; /* Asegura suficiente espacio debajo del texto para la flecha */
+}
+
+/* Estilo para el texto dentro de la sección de presentación */
+.intro-text h1 {
+    font-size: 3rem; /* Tamaño grande para el título */
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    margin-bottom: 20px;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(-20px); /* Comienza un poco más arriba */
+    animation: fadeIn 1.5s forwards; /* Animación de entrada */
+}
+
+.intro-text p {
+    font-size: 35px; /* Tamaño del subtítulo */
+    font-family: 'Source Serif 4', serif;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(20px); /* Comienza un poco más abajo */
+    animation: fadeIn 1.5s forwards 0.5s; /* Aparece después del título */
+}
+
+/* Animación para hacer que el texto aparezca suavemente */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para la flecha */
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-left: 4px solid #000000;
+    border-bottom: 4px solid #fff;
+    transform: rotate(-45deg);
+    animation: bounce 1.5s infinite;
+    margin-top: 20px; /* Se asegura que la flecha esté centrada verticalmente */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(-45deg);
+    }
+    40% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    60% {
+        transform: translateY(5px) rotate(-45deg);
+    }
+}
+/*-------------------------little message--------------------- */
+.littlemessage {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #060505;
+}
+
+/* ------------------------------------------Contenedor de cards ----------------------------------------*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.contenido h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 0.9em;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.contenido a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contenido a:hover {
+    background-color: #212121;
+    color: white;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 80%;
+        
+    }
+    .intro-section{
+        min-height: 80vh;
+    }
+}
+
+

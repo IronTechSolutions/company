@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la pantalla */
+    background: url("../backgrounds/mainbackground.jpg") no-repeat center center fixed; /* Asegura que la imagen esté centrada y no se repita */
+    background-size: 70%; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+}
+
+
+.wrapper {
+    width: 480px;
+    background: linear-gradient(to top, #000 5%, transparent); /* Gradiente aplicado */
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 40px 40px;
+}
+
+.wrapper h1, .wrapper h4, .header-message {
+    text-shadow: 
+        1px 1px 2px #4d4d4d,   /* Sombra inferior derecha */
+       -1px -1px 2px #4d4d4d,  /* Sombra superior izquierda */
+        1px -1px 2px #4d4d4d,  /* Sombra superior derecha */
+       -1px 1px 2px #4d4d4d;   /* Sombra inferior izquierda */
+}
+
+.wrapper h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.wrapper h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px 45px 20px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(93, 93, 93);
+    color: #ffffff;
+}
+
+/* Estilos para el efecto de desplazamiento */
+.header-message {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateX(100%); /* Comienza fuera de la pantalla hacia la derecha */
+    transition: all 1s ease; /* Transición suave */
+}
+
+.form-slide-in {
+    opacity: 0;
+    transform: translateX(100%); /* Desplazado fuera de la pantalla hacia la derecha */
+    transition: all 1s ease; /* Transición suave */
+}
+
+/* Cuando la clase slide-in es activada */
+.slide-in {
+    opacity: 1; /* Visible */
+    transform: translateX(0); /* Se desliza al centro */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Evita distorsión y adapta la imagen a la pantalla */
+        padding: 20px; /* Añade espacio para pantallas pequeñas */
+    }
+    .wrapper {
+        width: 90%; /* Ajusta el ancho del contenedor */
+        border-radius: 5%; /* Suaviza el diseño para pantallas pequeñas */
+        padding: 20px; /* Reduce el padding en dispositivos más chicos */
+    }
+    .wrapper h1 {
+        font-size: 28px; /* Ajusta el tamaño de texto */
+    }
+    .wrapper h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: contain; /* Evita distorsión y adapta la imagen a la pantalla */
+        padding: 20px; /* Añade espacio para pantallas pequeñas */
+    }
+    .wrapper {
+        width: 90%; /* Ajusta el ancho del contenedor */
+        border-radius: 5%; /* Suaviza el diseño para pantallas pequeñas */
+        padding: 20px; /* Reduce el padding en dispositivos más chicos */
+    }
+    .wrapper h1 {
+        font-size: 28px; /* Ajusta el tamaño de texto */
+    }
+    .wrapper h4 {
+        font-size: 16px;
+    }
+}
+

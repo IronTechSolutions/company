@@ -1,0 +1,614 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', serif; /* Cambia la fuente aquí */
+}
+
+body {
+    background-color:#ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Estilos del menú superior */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding: 10px 14px;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  font-size: bold;
+}
+/* Logo y menú */
+.logo-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logo-info .icon {
+    font-size: 50px;
+    color: #000000;
+}
+
+.logo-info h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Ocultar el ícono del menú en pantallas grandes */
+#menu {
+    display: none !important;
+}
+
+/* Mostrar el ícono del menú solo en pantallas pequeñas */
+@media (max-width: 768px) {
+    #menu {
+        display: block !important;
+        margin-top: 18px;
+    }
+}
+
+/* Estilos de los enlaces del menú */
+.sidebar ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    list-style: none;
+    padding: 0;
+    gap: 50px; /* Espacio entre los elementos */
+    font-size: bold;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    margin: 0; /* Elimina el margen lateral */
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center; /* Centra el contenido de cada enlace */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color: #000000; /* Cambia esto si deseas un color diferente para el texto */
+}
+
+.sidebar ul li a i {
+    font-size: 26px; /* Tamaño de los iconos */
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+
+.sidebar ul li a:hover {
+  background: #000000;
+  color: #ffeded;
+}
+
+
+
+/* -------------------------Sidebar en pantallas pequeñas-------------------------------------------- */
+@media (max-width: 768px) {
+    .sidebar {
+        display: flex;
+        align-items: flex-start; /* Alinear elementos en la parte superior */
+        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+        position: fixed;
+        z-index: 1000; /* Asegúrate de que el sidebar esté por encima de otros elementos */
+    }
+
+    
+    /* Menú */
+    .sidebar ul {
+        display: none; /* Ocultar el menú por defecto */
+        flex-direction: column; /* Alinear los elementos de la lista verticalmente */
+        width: 60%; /* Asegúrate de que el menú ocupe todo el ancho */
+        margin-top: 20px;
+        z-index: 100; /* Asegúrate de que el menú esté por encima de las imágenes y otros elementos */
+    }
+
+    /* Asegúrate de mostrar el menú cuando tenga la clase 'show' */
+    .sidebar ul.show {
+        display: flex; /* Muestra el menú cuando tiene la clase 'show' */
+    }
+
+    /* Estilos para los íconos en el menú */
+    .sidebar ul li {
+        background-color: rgba(0, 0, 0, 0.42);
+        margin: -7px;
+        border: solid black 1px 1px 1px 1px ;
+        border-radius: 10px;
+        margin: -10px;
+    }
+
+    .sidebar ul li a:hover {
+        background: #ffeded;
+        color: #000;
+        margin: -7px;
+        border-radius: -10px;
+        overflow: hidden;
+    }
+
+    .sidebar ul li a {
+        display: flex; /* Usar flexbox para alinear icono y texto */
+        align-items: center; /* Centrar verticalmente el contenido */
+        color: #ffffff; /* Color del texto */
+        font-weight: bold;
+        text-decoration: none; /* Sin subrayado en los enlaces */
+        width: 100%; /* Asegúrate de que los enlaces ocupen todo el ancho */
+        box-sizing: border-box; /* Evita que el padding afecte el tamaño del elemento */
+    }
+
+    .sidebar ul li a i {
+        margin-right: 10px; /* Espacio entre el ícono y el texto */
+    }
+
+    /* Asegúrate que el icono de menú sólo aparezca en pantallas pequeñas */
+    #menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #000000;
+        margin-top: 18px;
+        z-index: 1200; /* Asegura que el ícono del menú esté sobre las imágenes */
+    }
+
+    /* Ajustes adicionales para pantallas muy pequeñas */
+    @media (max-width: 480px) {
+        .sidebar ul li a .title {
+            font-size: 13px;
+        }
+
+        .logo-info h2 {
+            font-size: 25px;
+            margin-top: 15px;
+        }
+    }
+}
+
+/* En pantallas grandes, ocultamos el ícono del menú */
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+    
+}
+
+/* ------------------------- Contenido central -------------------------------------------- */
+.intro-section {
+    background-image: url('../backgrounds/materiales.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /* La sección ocupa toda la pantalla */
+    position: relative; /* Permite superponer contenido */
+}
+
+/* Overlay para suavizar el fondo */
+.intro-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 59, 59, 0.5); /* Capa translúcida negra */
+    z-index: 1; /* Asegura que esté detrás del texto */
+}
+
+/* Estilo del texto para que esté encima del overlay */
+.intro-text {
+    position: relative; /* Asegura que el texto esté por encima del overlay */
+    z-index: 2; /* Coloca el texto encima del overlay */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #000000; /* Texto blanco para contrastar con el fondo */
+    margin-bottom: 40px; /* Asegura suficiente espacio debajo del texto para la flecha */
+}
+
+/* Estilo para el texto dentro de la sección de presentación */
+.intro-text h1 {
+    font-size: 3rem; /* Tamaño grande para el título */
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    margin-bottom: 20px;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(-20px); /* Comienza un poco más arriba */
+    animation: fadeIn 1.5s forwards; /* Animación de entrada */
+}
+
+.intro-text p {
+    font-size: 35px; /* Tamaño del subtítulo */
+    font-family: 'Source Serif 4', serif;
+    opacity: 0; /* Invisible por defecto */
+    transform: translateY(20px); /* Comienza un poco más abajo */
+    animation: fadeIn 1.5s forwards 0.5s; /* Aparece después del título */
+}
+
+/* Animación para hacer que el texto aparezca suavemente */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para la flecha */
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-left: 4px solid #000000;
+    border-bottom: 4px solid #fff;
+    transform: rotate(-45deg);
+    animation: bounce 1.5s infinite;
+    margin-top: 130px; /* Se asegura que la flecha esté centrada verticalmente */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(-45deg);
+    }
+    40% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    60% {
+        transform: translateY(5px) rotate(-45deg);
+    }
+}
+
+/* ---------------------------------------------------------------- CARDS --------------------------------------------------------------------- */
+
+.container {
+  margin-bottom: 25px;
+}
+
+/* Título principal */
+h1 {
+  margin: 20px 0; /* Espaciado superior e inferior */
+  font-size: 2em; /* Tamaño de fuente */
+  text-align: center;
+  color: #333; /* Color gris oscuro para mejor contraste */
+}
+
+/* Barra de búsqueda */
+#searchBar {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 400px; /* Ancho máximo */
+  padding: 10px; /* Relleno interno */
+  margin: 20px auto; /* Centra la barra horizontalmente con espacio arriba y abajo */
+  font-size: 16px; /* Tamaño del texto */
+  border: 1px solid #000000; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  display: block; /* Asegura que se comporte como un bloque */
+  text-align: center; /* Centra el texto dentro de la barra */
+  transition: border-color 0.3s ease;
+}
+
+
+/* Contenedor para las tarjetas de materiales */
+.materials-grid {
+  display: flex; /* Organiza los elementos en fila */
+  flex-wrap: wrap; /* Permite pasar a nuevas filas */
+  gap: 20px; /* Espaciado entre tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  padding: 20px 0; /* Espaciado superior e inferior */
+  max-height: 5000000px; /* Altura máxima para que se mantengan dos filas */
+  overflow-y: auto; /* Permite desplazamiento vertical si hay más tarjetas */
+}
+
+.material-card {
+  display: flex; /* Divide la tarjeta en dos secciones (imagen e información) */
+  flex-wrap: nowrap;
+  width: 350px; /* Ancho fijo de la tarjeta */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 1px solid #000000; /* Borde gris claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  overflow: hidden; /* Esconde contenido que se desborda */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+
+/* Efecto hover para la tarjeta */
+.material-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9); /* Aumenta la sombra al pasar el mouse */
+}
+
+/* Sección para la imagen */
+.image-section {
+  flex: 1; /* Ocupa el 50% del ancho de la tarjeta */
+  position: relative; /* Necesario para posicionar el precio sobre la imagen */
+}
+
+.image-section img {
+  width: 100%; /* Imagen ocupa todo el ancho disponible */
+  height: 150px; /* Altura fija */
+  object-fit: cover; /* Recorta o escala la imagen para encajar */
+  transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+/* Efecto hover para agrandar la imagen */
+.image-section img:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% de su tamaño original */
+}
+
+/* Desactivar el efecto de agrandado cuando la tarjeta está filtrada */
+.material-card.filtered .image-section img {
+  transform: none; /* Desactiva el efecto de escala */
+}
+
+/* Estilo para las tarjetas ocultas */
+.material-card.hidden {
+  display: none;
+}
+
+/* Precio sobre la imagen */
+.price {
+  position: absolute; /* Posiciona el precio relativo a la imagen */
+  bottom: 10px; /* Espaciado desde la parte inferior */
+  left: 10px; /* Espaciado desde la parte izquierda */
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo translúcido */
+  color: #000; /* Texto en negro */
+  padding: 5px 10px; /* Relleno interno */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño de la fuente */
+}
+
+/* Sección de información (nombre, descripción, acciones) */
+.info-section {
+  flex: 2; /* Ocupa el 50% del ancho de la tarjeta */
+  padding: 15px; /* Relleno interno */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Título de la tarjeta */
+.info-section h3 {
+  margin: 0; /* Sin margen */
+  font-size: 1.2em; /* Tamaño del título */
+  color: #000000; /* Color gris oscuro */
+
+}
+
+/* Descripción del material */
+.info-section p {
+  font-size: 0.95em; /* Tamaño de la fuente */
+  margin: 10px 0; /* Espaciado entre párrafos */
+  color: #666; /* Gris para el texto */
+}
+
+/* Contenedor para las acciones (cantidad, total y botones) */
+.actions {
+  display: flex; /* Organiza los elementos en fila */
+  flex-direction: column; /* Apila los botones verticalmente */
+  gap: 10px; /* Espaciado entre elementos */
+  margin-top: 10px; /* Espacio superior */
+}
+
+/* Campo para ingresar la cantidad */
+.quantity {
+  width: 100px; /* Ancho fijo */
+  padding: 5px; /* Relleno interno */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Fondo ligeramente gris */
+  text-align: center; /* Centra el texto */
+  font-size: 1em; /* Tamaño de texto más grande */
+  color: #333; /* Color del texto */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animaciones suaves */
+}
+
+/* Efecto focus (cuando el usuario hace clic) */
+.quantity:focus {
+  outline: none; /* Elimina el contorno predeterminado del navegador */
+  border-color: #00ff2a; /* Resalta el borde al hacer foco */
+  box-shadow: 0 0 8px rgba(66, 190, 24, 0.57); /* Sombra al enfocar */
+}
+
+/* Texto que muestra el total */
+.total {
+  font-size: 0.9em; /* Tamaño de la fuente */
+  color: #333; /* Color del texto */
+}
+
+/* Botón de añadir al carrito */
+.add-to-cart-button, .buy-now-button {
+  padding: 10px 20px; /* Relleno interno */
+  background-color: #000000; /* Color verde */
+  color: #fff; /* Texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a "mano" */
+  transition: background-color 0.3s ease; /* Transición para el hover */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Efecto hover para el botón de añadir al carrito */
+.add-to-cart-button:hover {
+  background-color: #9aa19b; /* Verde más oscuro */
+}
+
+/* Efecto hover para el botón de comprar ahora */
+.buy-now-button:hover {
+  background-color: #32da46; /* Azul para indicar acción inmediata */
+}
+
+/* --------------------------Contenedor del carrito -------------------------*/
+.cari {
+  margin-top: 50px;
+  background-color: #f9f9f9; /* Fondo gris claro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.subtotal {
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333; /* Gris oscuro para el texto */
+}
+
+/* Modal */
+.modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegura que esté sobre el contenido */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.modal-content p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+/*------------------- estilo para el carrito-------------------- */
+/* Estilos para el carrito */
+.cari {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cari h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+/* botom de limpiar */
+
+#cariItems {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+/* Botón de borrar */
+#clearCartButton, #checkoutButton {
+  background-color: #e63946; /* Color rojo vibrante para limpiar carrito */
+  color: white; /* Texto blanco para contraste */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño del texto */
+  margin-bottom: 4px; /* Espaciado inferior */
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones suaves */
+  width: 100%; /* Asegura que ambos botones tengan el mismo ancho */
+  box-sizing: border-box; /* Incluye padding y border dentro del ancho */
+}
+
+/* Efecto al pasar el ratón para ambos botones */
+#clearCartButton:hover, #checkoutButton:hover:not(:disabled) {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Botón de limpiar (hover y active) */
+#clearCartButton:hover {
+  background-color: #d62828; /* Color más oscuro al hacer hover */
+}
+
+#clearCartButton:active {
+  background-color: #ba1b1b; /* Aún más oscuro al hacer clic */
+  transform: scale(0.98); /* Hace un efecto de "presionado" */
+}
+
+/* Botón de comprar */
+#checkoutButton {
+  background-color: #000000; /* Color negro para "Comprar ahora" */
+}
+
+/* Estado deshabilitado para el botón de comprar */
+#checkoutButton:disabled {
+  background-color: #a3a3a3; /* Color gris para indicar estado inactivo */
+  color: #666666; /* Texto gris oscuro */
+  cursor: not-allowed; /* Indica que no se puede interactuar */
+  transform: none; /* Sin animación */
+}
+
+/* Estado seleccionado en tarjetas (si aplica) */
+.material-card.selected {
+  background-color: #d4edda; /* Fondo verde claro cuando seleccionado */
+}
+
+/* ----------------Estilo para el fondo del modal--------------- */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Fijo en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Contenedor del contenido del modal */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el modal */
+  background-color: #fff; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  text-align: center; /* Centra el texto */
+  width: 300px; /* Ancho fijo */
+}
+
+/* Botón para cerrar el modal */
+.modal-close {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #aa0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.modal-close:hover {
+  background-color: #730303; /* Color más oscuro al pasar el cursor */
+}

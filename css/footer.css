@@ -1,0 +1,37 @@
+/* Estilos para el footer */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos específicos para la clase 'rights' */
+.rights {
+  font-size: 16px;
+  text-align: center;
+}
+
+.rights:hover {
+  color: #ff0000;
+  transition: color 0.3s ease;
+}
+
+/* Línea decorativa antes del texto */
+.footer::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 20px auto;
+}
