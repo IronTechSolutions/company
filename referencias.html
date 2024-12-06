@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icono/icono.jpg">
+    <link rel="stylesheet" href="css/referencias.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Iron Tech Solutions</title>
+</head>
+<body>
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+    
+    
+    <!-----------------------------------------Menu--------------------------------------------- -->
+    <div class="sidebar">
+        <div class="logo-info">
+            <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                <i class="bx bxl-facebook icon"></i>
+            </a>
+            <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+            <i class="bx bx-menu" id="menu"></i>
+        </div> 
+        <ul>
+            <li>
+                <a href="main.html" class="btn-shine">
+                    <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                    <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                </a>
+            </li>            
+            <li>
+                <a href="desarrolloweb.html" class="btn-shine">
+                    <i class="bx bx-code"></i>
+                    <span class="title">&nbsp;Desarrollo web</span>
+                </a>
+            </li>
+            <li>
+                <a href="herramientas.html" class="btn-shine">
+                    <i class="bx bx-wrench"></i>
+                    <span class="title">&nbsp;Herramientas</span>
+                </a>
+            </li>
+            <li>
+                <a href="para_construccion.html" class="btn-shine" >
+                    <i class="bx bx-building"></i>
+                    <span class="title">&nbsp;Materiales para la construccion</span>
+                </a>
+            </li>
+            <li>
+                <a href="referencias.html" class="btn-shine">
+                    <i class="bx bx-file"></i>
+                    <span class="title">&nbsp;Referencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="contactos.html" class="btn-shine">
+                    <i class="bx bx-envelope"></i>
+                    <span class="title">&nbsp;Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="sobre_nosotros.html" class="btn-shine">
+                    <i class="bx bx-book"></i>
+                    <span class="title">&nbsp;Sobre Nosotros</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="btn-shine">
+                    <i class="bx bx-exit"></i>
+                    <span class="title">&nbsp;Salir</span>
+                </a>
+            </li>
+        </ul>
+    </div> 
+    <script src="main.js"></script>
+
+
+    <!---------------------------- Sección de presentación --------------------------->
+    <section class="intro-section">
+        <div class="intro-text">
+        <h1>Nuestra mejor referencia, son nuestros clientes</h1>
+        <p>Visita sus páginas web y descubre sus servicios</p>
+        </div>
+        <div class="arrow">
+        </div>
+    </section>
+    <!----------------------------CARDS DE CLIENTES --------------------->
+    <div class="card-container" id="card-container">
+        <div class="card">
+            <div class="card__img">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%">
+                    <rect fill="#ffffff" width="540" height="450"></rect>
+                    <defs>
+                        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="0" x2="0" y1="0" y2="100%" gradientTransform="rotate(222,648,379)">
+                            <stop offset="0" stop-color="#290e00"></stop>
+                            <stop offset="1" stop-color="#290e00"></stop>
+                        </linearGradient>
+                    </defs>
+                    <rect x="0" y="0" fill="url(#a)" width="100%" height="100%"></rect>
+                </svg>
+            </div>
+            <div class="card__avatar">
+                <!-- Contenedor SVG para el avatar -->
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Círculos de fondo del avatar -->
+                    <circle cx="64" cy="64" fill="#000000" r="60"></circle>
+                    <circle cx="64" cy="64" fill="#000000" opacity=".4" r="48"></circle>
+                    
+                    
+                    <!-- Imagen dentro del avatar (ajusta la ruta de la imagen) -->
+                    <image href="icono/icono.jpg" x="24" y="24" width="80" height="80" clip-path="circle(50% at 50% 50%)"/>
+                </svg>
+            </div>
+            <div class="card__info">
+                <h2 class="card__title">IronTech Solutions</h2>
+                <p class="card__description"> En IronTech, nos especializamos en diseñar sitios web innovadores y efectivos. Además, brindamos estrategias de marketing digital para mejorar la visibilidad de tu negocio y conectar con más clientes potenciales.</p>
+                <a href="main.html">
+                    <button class="card__button">Visitar</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/referenceclient.js"></script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer> 
+       
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Tech Solutions</title>
+    <link rel="icon" href="icono/icono.jpg">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+    <div class="wrapper">
+        <!-- Mensaje con desplazamiento -->
+        <h3 class="header-message">Se parte del desarrollo</h3>
+
+        <form id="loginForm" class="form-slide-in">
+            <h1>Registro</h1>
+            <h4>Ingresa con tu nombre y apellido</h4>
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Nombre y apellido" maxlength="15" required>
+                <i class='bx bxs-user'></i>
+            </div>                
+            <button type="submit" class="btn">Comenzar</button>
+        </form>
+    </div>
+
+    <script>
+        window.onload = () => {
+            document.querySelector('.header-message').classList.add('slide-in');
+            document.querySelector('.form-slide-in').classList.add('slide-in');
+        };
+    
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            let fullName = document.getElementById('fullName').value;
+            fullName = fullName.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+            
+            localStorage.setItem('userName', fullName);
+            window.location.href = 'main.html';
+        });
+    </script>
+    
+</body>
+</html>

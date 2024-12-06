@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Iron Tech Solutions</title>
+    <link rel="icon" href="icono/icono.jpg">
+</head>
+<body>
+
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+    <!-----------------------------------------------------------Menu---------------------------------------------------------------------------------- -->
+    <div class="sidebar">
+        <div class="logo-info">
+            <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                <i class="bx bxl-facebook icon"></i>
+            </a>
+            <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+            <i class="bx bx-menu" id="menu"></i>
+        </div>        
+        <ul>
+            <li>
+                <a href="main.html" class="btn-shine">
+                    <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                    <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                </a>
+            </li>            
+            <li>
+                <a href="desarrolloweb.html" class="btn-shine">
+                    <i class="bx bx-code"></i>
+                    <span class="title">&nbsp;Desarrollo web</span>
+                </a>
+            </li>
+            <li>
+                <a href="herramientas.html" class="btn-shine">
+                    <i class="bx bx-wrench"></i>
+                    <span class="title">&nbsp;Herramientas</span>
+                </a>
+            </li>
+            <li>
+                <a href="para_construccion.html" class="btn-shine" >
+                    <i class="bx bx-building"></i>
+                    <span class="title">&nbsp;Materiales para la construccion</span>
+                </a>
+            </li>
+            <li>
+                <a href="referencias.html" class="btn-shine">
+                    <i class="bx bx-file"></i>
+                    <span class="title">&nbsp;Referencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="contactos.html" class="btn-shine">
+                    <i class="bx bx-envelope"></i>
+                    <span class="title">&nbsp;Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="sobre_nosotros.html" class="btn-shine">
+                    <i class="bx bx-book"></i>
+                    <span class="title">&nbsp;Sobre Nosotros</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="btn-shine">
+                    <i class="bx bx-exit"></i>
+                    <span class="title">&nbsp;Salir</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="main.js"></script>
+
+    <!-- Banner message -->
+    <div class="banner-message">
+        <h2>¿Alguna vez has buscado la página web de un negocio y resulta que no tiene?</h2>
+        <h2>¡¡No permitas que esto le pase a tu negocio!!</h2>
+        <h2>Para que tu negocio crezca, en <strong>Iron Tech Solutions</strong> te ofrecemos:</h2>
+        <br>
+    </div>
+
+
+    <!-- slider -->
+     <div class="slider">
+        <!-- list items -->
+         <div class="list">
+            <div class="item active">
+                <img src="img_main/desarrollo.jpg">
+                <div class="content">
+                    <p>IronTech Desarrollo</p>
+                    &nbsp;
+                    <h2>Desarrollo Web</h2>
+                    &nbsp;
+                    &nbsp;<p>
+                        Ofrecemos soluciones de desarrollo web diseñadas para adaptarse a las necesidades de tu negocio, con el objetivo de mejorar su presencia en línea. Nos enfocamos en crear sitios web atractivos y funcionales que puedan ayudarte a aprovechar las oportunidades del mundo digital.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/herramientas.jpg">
+                <div class="content">
+                    <p>IronTech Herramientas</p>
+                    &nbsp;
+                    <h2>Herramientas a domicilio</h2>
+                    &nbsp;
+                    &nbsp;<p>
+                    En IronTech, ofrecemos herramientas de alta calidad con garantía, entregadas directamente a tu hogar o negocio. ¡Con nosotros, la perfección en tus proyectos está al alcance de un clic!
+                    </p>
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/materiales.jpg">
+                <div class="content">
+                    <p>IronTech Materiales</p>
+                    &nbsp;
+                    <h2>Materiales de construcción</h2>
+                    &nbsp;
+                    &nbsp;<p>
+                    Ofrecemos materiales de construcción de alta calidad y durabilidad para que tu proyecto sea un éxito. Con entrega a domicilio, te llevamos todo lo que necesitas, No importa el tamaño de tu obra, contamos con lo que necesitas para que sigas avanzando sin contratiempos.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/marketing.jpg">
+                <div class="content">
+                    <p>Irontech Publicidad</p>
+                    &nbsp;
+                    <h2>Publicidad a tu pagina</h2>
+                    &nbsp;
+                    &nbsp;<p>
+                        En IronTech, no solo creamos páginas web impresionantes, sino que también nos encargamos de darle la visibilidad que tu negocio merece. Sabemos que tener un sitio web es solo el primer paso, por eso, te ofrecemos un espacio de tu proyecto en nuestra pagina web.
+                    </p>
+                </div>
+            </div>
+         </div>
+         <!-- -------------------Button Arrows------------ -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!----------------------------Thumnail------------------------- -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="img_main/desarrollo.jpg">
+                <div class="content">
+                    Desarrollo Web
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/herramientas.jpg">
+                <div class="content">
+                    Herramientas
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/materiales.jpg">
+                <div class="content">
+                    Para construccion
+                </div>
+            </div>
+            <div class="item">
+                <img src="img_main/marketing.jpg">
+                <div class="content">
+                    Publicidad
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- SLIDER SCRIPT -->
+     <script src="scripts/slider.js"></script> 
+
+</body>
+</html>

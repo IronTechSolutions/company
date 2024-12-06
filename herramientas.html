@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icono/icono.jpg">
+    <title>IronTech Solutions</title>
+    <link rel="stylesheet" href="css/herramientas.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="tools.js"></script> 
+    <script defer src="scripts/verificador.js"></script>
+    
+</head>
+<body>
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+    <!------------------------------------ MENU -------------------------------------------------->
+    <header>
+        <div class="sidebar">
+            <div class="logo-info">
+                <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                    <i class="bx bxl-facebook icon"></i>
+                </a>
+                <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+                <i class="bx bx-menu" id="menu"></i>
+            </div> 
+            <ul>
+                <li>
+                    <a href="main.html" class="btn-shine">
+                        <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                        <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                    </a>
+                </li>            
+                <li>
+                    <a href="desarrolloweb.html" class="btn-shine">
+                        <i class="bx bx-code"></i>
+                        <span class="title">&nbsp;Desarrollo web</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="herramientas.html" class="btn-shine">
+                        <i class="bx bx-wrench"></i>
+                        <span class="title">&nbsp;Herramientas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="para_construccion.html" class="btn-shine" >
+                        <i class="bx bx-building"></i>
+                        <span class="title">&nbsp;Materiales para la construccion</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="referencias.html" class="btn-shine">
+                        <i class="bx bx-file"></i>
+                        <span class="title">&nbsp;Referencias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactos.html" class="btn-shine">
+                        <i class="bx bx-envelope"></i>
+                        <span class="title">&nbsp;Contacto</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre_nosotros.html" class="btn-shine">
+                        <i class="bx bx-book"></i>
+                        <span class="title">&nbsp;Sobre Nosotros</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html" class="btn-shine">
+                        <i class="bx bx-exit"></i>
+                        <span class="title">&nbsp;Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- -----------------------------contenido central ---------------------------->
+        <section class="intro-section">
+            <div class="intro-text">
+            <h1>Actualemente esta parte se encuentra en desarrollo, no esta disponible</h1>
+            <p>¡Pero puedes echar un vistazo de lo que se espera!</p>
+            </div>
+            <div class="arrow">
+            </div>
+        </section>
+        <script src="main.js"></script>
+
+
+    </header>
+    <!-- ---------------------------------------------contenido------------------------------------------ -->
+    <script>
+        // Captura el elemento con la clase 'arrow'
+        const arrow = document.querySelector('.arrow');
+    
+        // Agrega un evento de clic al elemento con la clase 'arrow'
+        arrow.addEventListener('click', () => {
+            // Encuentra el div con la clase 'container'
+            const target = document.querySelector('.container');
+    
+            // Desplázate suavemente hacia el div con la clase 'container'
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    </script>
+    <div class="container">
+        <!-- Barra de búsqueda -->
+        <div class="search_bar">
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+        </div>
+
+        <!-- Botones de filtro -->
+        <div class="filter_bottons">
+            <button data-name="all" class="active">Mostrar todo</button>
+            <button data-name="offers">Ofertas</button>
+            <button data-name="blackplusdecker">Black + Decker</button> <!--Primera-->
+            <button data-name="dewalt">Dewalt</button> <!--segunda-->
+            <button data-name="makita">Makita</button> <!--tercera-->
+            <button data-name="metabo">Metabo</button> <!--cuarta-->
+            <button data-name="stanley">Standley</button> <!--quinta-->
+            <button data-name="total">Total</button> <!--sexta-->
+            <button data-name="truper">Truper</button> <!--septima-->
+            <!-- Agrega más botones según tus necesidades -->
+        </div>
+    
+
+        <!-- Tarjetas filtrables -->
+         <!--Primera marca black + decker-->
+        <div class="filterable_cards">
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Motosierra Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Black & Decker</h3> <!--b1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, minima! Delectus nihil, non minima facere repellat, tenetur fugiat quas obcaecati atque, soluta est ducimus commodi quod ullam. Voluptatem, expedita libero.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <div class="button-bordes">
+                    <a href="" class="button_comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Pulidora Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Black & Decker</h3> <!--b2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Rotamartillo Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Black & Decker</h3> <!--b3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Router para madera Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Router Black & Decker</h3> <!--b4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Sierra eléctrica Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica Black & Decker</h3> <!--b5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Sierra eléctrica de mesa Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de Mesa Black & Decker</h3> <!--b6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Taladro Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Black & Decker</h3> <!--b7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="blackplusdecker">
+                <img src="herramientas/marca blackanddecker/Taladro eléctrico Black+Decker.jfif" loading="lazy" alt="Producto Black + Decker">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Inalambrico Black & Decker</h3> <!--b8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae a minus repellat qui. Nam debitis repudiandae laborum odio consectetur illum dolor sequi incidunt tenetur consequatur veniam, nobis itaque impedit?</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+ 
+
+            <!--Segunda marca dewalt-->
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Motosierra Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra DeWalt</h3> <!--d1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Pulidora Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora DeWalt</h3> <!--d2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Rotamartillo Dewalt.jpg" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo DeWalt</h3> <!--d3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Router para madera Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Router para madera DeWalt</h3> <!--d4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Sierra eléctrica Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica DeWalt</h3> <!--d5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Sierra eléctrica de mesa Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de Mesa DeWalt</h3> <!--d6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Taladro Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro DeWalt</h3> <!--d7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="dewalt">
+                <img src="herramientas/marca dewalt/Taladro eléctrico Dewalt.jfif" loading="lazy" alt="Producto DeWalt">
+                <div class="card_body">
+                    <h3 class="card_title"> Taladro Inalambrico DeWalt</h3> <!--d8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptate, nobis non, ducimus aut corporis accusamus necessitatibus eaque accusantium delectus magnam deleniti omnis vitae similique aliquam libero labore saepe iusto!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+
+            <!--Tercera marca makita-->
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Motosierra Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Makita</h3> <!--m1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Pulidora Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Makita</h3><!--m2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Rotamartillo Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Makita</h3> <!--m3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Router de madera Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Router para madera Makita</h3> <!--m4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Sierra eléctrica makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica Makita</h3> <!--m5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Sierra eléctrica de mesa Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de Mesa Makita</h3> <!--m6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Taladro Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Makita</h3> <!--m7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="makita">
+                <img src="herramientas/marca makita/Taladro eléctrico Makita.jfif" loading="lazy" alt="Producto Makita">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Inalambrico Makita</h3> <!--m8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium necessitatibus! Ad error corporis quibusdam hic et porro numquam at dolorem, laborum, ea natus vel consequuntur optio voluptatum qui nobis.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+            
+            <!--Cuarta marca metabo-->
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/motosierra metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Metabo</h3> <!--me1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/pulidora metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Metabo</h3> <!--me2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/rotomartillo metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Metabo</h3> <!--me3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/router metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Router para madera Metabo</h3> <!--me4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/sierra metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica Metabo</h3> <!--me5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/sierra_de_mesa_metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de mesa Metabo</h3> <!--me6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/taladro inalambrico.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Inalambrico Metabo</h3> <!--me7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="metabo">
+                <img src="herramientas/marca metabo/taladro metabo.jpg" loading="lazy" alt="Producto Metabo">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Metabo</h3> <!--me8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere consequuntur harum voluptatem expedita soluta tempora. Ex dolor eum eius nulla quis necessitatibus amet, modi provident facilis harum aperiam libero corrupti!</p>
+                    <p></p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+
+
+
+            <!--Quinta marca stanley-->
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/motosierra.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Stanley</h3> <!--s1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/pulidora.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Stanley</h3> <!--s2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/rota martillo.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Stanley</h3> <!--s3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/router.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Router para madera Stanley</h3> <!--s4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/sierra electrica.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica Stanley</h3> <!--s5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/sierra de mesa.png" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de Mesa Stanley</h3> <!--s6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/taladro electrico.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Stanley</h3> <!--s7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="stanley">
+                <img src="herramientas/marca stanley/taladro inalambrico.jpg" loading="lazy" alt="Producto Stanley">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Inalambrico Stanley</h3> <!--s8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla vero laborum, ratione consectetur exercitationem tempora hic enim incidunt, ducimus quisquam amet, aspernatur corrupti consequatur asperiores voluptatibus animi suscipit placeat.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+
+
+            <!--Sexta marca total-->
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/motosierra total.png" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Total</h3><!--Tt1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/pulidora total.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Total</h3><!--Tt2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, optio provident. Mollitia, autem deleniti? Id laborum, molestiae, error dolores quasi laboriosam modi pariatur maxime provident nemo ut ipsum ducimus voluptas.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/rotomartillo total.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Total</h3><!--Tt3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/router total.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Router Total</h3><!--Tt4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/sierra total.png" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra Electrica Total</h3><!--Tt5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/sierramesatotal.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de mesa Total</h3><!--Tt6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/taladro total.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Total</h3><!--Tt7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="total">
+                <img src="herramientas/marca total/taladro inalambrico total.jpg" loading="lazy" alt="Producto Total">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Inalambrico Total</h3><!--Tt8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim nemo natus minima doloremque, nam fuga culpa dignissimos possimus eum at in reprehenderit necessitatibus voluptates harum corrupti ex molestiae unde!</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <!-- Agrega más tarjetas según las necesidades -->
+
+
+            <!--Septima marca truper-->
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/motosierra truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Motosierra Truper</h3> <!--Tru1-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/pulidora truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Pulidora Truper</h3> <!--Tru2-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/rotomartillo truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Rotomartillo Truper</h3> <!--Tru3-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/router truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Router para madera Truper</h3> <!--Tru4-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/sierra truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra electrica Truper</h3> <!--Tru5-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/Sierra+de+mesa+truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Sierra de mesa Truper</h3> <!--Tru6-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/taladro truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro Truper</h3> <!--Tru7-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            <div class="card" data-name="truper">
+                <img src="herramientas/marca truper/taladro+inalambrico+truper.jpg" loading="lazy" alt="Producto Truper">
+                <div class="card_body">
+                    <h3 class="card_title">Taladro inalambrico Truper</h3> <!--Tru8-->
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus dolorum vitae, voluptatem modi tempore suscipit sit odit corrupti repudiandae excepturi cumque quisquam reiciendis sapiente deserunt pariatur quod, illo dolores.</p>
+                    <p class="price"><span><strong>Precio: HNL 800</strong></span></p>
+                    <br>
+                    <a href="#" class="button_comprar">Comprar</a>
+                </div>
+            </div>
+            
+ 
+            <!-- Agrega más tarjetas según tus necesidades -->
+        </div>
+    </div>
+    <!-- <script>
+        // Recuperar el nombre del usuario de localStorage
+        const userName = localStorage.getItem('userName');
+    
+        // Verificar si userName existe en localStorage
+        if (!userName) {
+            alert("Por favor, inicia sesión para continuar.");
+            window.location.href = "login.html"; // Redirige al inicio de sesión si no hay nombre
+        } else {
+            document.querySelectorAll('.button_comprar').forEach(button => {
+                button.addEventListener('click', function(event) {
+                    event.preventDefault(); // Evita que el enlace recargue la página
+                    const card = this.closest('.card'); // Encuentra el elemento padre .card
+                    const toolName = card.querySelector('.card_title').innerText; // Obtiene el nombre de la herramienta
+                    const message = `Hola, soy ${userName} y tengo interés en comprar la herramienta ${toolName}.`;
+                    const whatsappUrl = `https://api.whatsapp.com/send?phone=50488118862&text=${encodeURIComponent(message)}`; // Crea la URL de WhatsApp
+                    window.open(whatsappUrl, '_blank'); // Abre WhatsApp en una nueva pestaña
+                });
+            });
+        }
+    </script> -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer> 
+      
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/desarrolloweb.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icono/icono.jpg">
+    <title>IronTechDesarrollo</title>
+    <script defer src="scripts/required.js"></script>
+    <script defer src="scripts/verify.js"></script>
+</head>
+<body>
+
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+   <!---------------------------------------------------menu------------------------------->
+   <header>
+        <div class="sidebar">
+            <div class="logo-info">
+                <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                    <i class="bx bxl-facebook icon"></i>
+                </a>
+                <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+                <i class="bx bx-menu" id="menu"></i>
+            </div> 
+            <ul>
+                <li>
+                    <a href="main.html" class="btn-shine">
+                        <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                        <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                    </a>
+                </li>            
+                <li>
+                    <a href="desarrolloweb.html" class="btn-shine">
+                        <i class="bx bx-code"></i>
+                        <span class="title">&nbsp;Desarrollo web</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="herramientas.html" class="btn-shine">
+                        <i class="bx bx-wrench"></i>
+                        <span class="title">&nbsp;Herramientas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="para_construccion.html" class="btn-shine" >
+                        <i class="bx bx-building"></i>
+                        <span class="title">&nbsp;Materiales para la construccion</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="referencias.html" class="btn-shine">
+                        <i class="bx bx-file"></i>
+                        <span class="title">&nbsp;Referencias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactos.html" class="btn-shine">
+                        <i class="bx bx-envelope"></i>
+                        <span class="title">&nbsp;Contacto</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre_nosotros.html" class="btn-shine">
+                        <i class="bx bx-book"></i>
+                        <span class="title">&nbsp;Sobre Nosotros</span>
+                    </a>
+                </li>
+                <li>
+                    <li>
+                        <a href="index.html" class="btn-shine">
+                            <i class="bx bx-exit"></i>
+                            <span class="title">&nbsp;Salir</span>
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+        
+    
+        <!-- contenido central -->
+        <section class="intro-section">
+            <div class="intro-text">
+            <h1>Ofrecemos soluciones de desarrollo web a diferete rubros del pais</h1>
+            <p>¡No dejes que la competencia tome ventaja!</p>
+            </div>
+            <div class="arrow">
+            </div>
+        </section>
+    </header> 
+
+    <script src="main.js"></script>
+    
+    <!--mensaje y division del encabezado y contenido principal-->
+    <div class="littlemessage">
+        <h1>Mira las opciones de desarrollo que tenemos para ti</h1>
+    </div>
+
+    <script>
+        // Captura el elemento con la clase 'arrow'
+        const arrow = document.querySelector('.arrow');
+    
+        // Agrega un evento de clic al elemento con la clase 'arrow'
+        arrow.addEventListener('click', () => {
+            // Encuentra el div con la clase 'container'
+            const target = document.querySelector('.container');
+    
+            // Desplázate suavemente hacia el div con la clase 'container'
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    </script>
+
+    <!--Contenido diverso, opciones a ofrecer al visitante--> 
+    <div class="container">
+        <div class="card">  <!--1. Aseguradora-->
+            <figure>
+                <img src="img_development/insurance.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Aseguradora</h3> 
+                <p>La confianza es fundamental en el sector asegurador. Creamos plataformas que no solo informan, sino que también ayuden a establecer relaciones sólidas con los clientes y futuros clientes.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--2. Buffets de abogados-->
+            <figure>
+                <img src="img_development/buffet 2.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Bufete/Firma</h3> 
+                <p>Haz que clientes potenciales conecten contigo. Un sitio web bien diseñado, resaltará tu Firma y tu trabajo. Destaca y crecer en el mundo coorporativo.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--3. concencionarias-->
+            <figure>
+                <img src="img_development/concencionaria.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Concencionaria / Autolotes</h3> 
+                <p>Los clientes buscan confianza y comodidad al comprar su próximo vehículo. Establece su marca como un referente en el mercado, nacional e internacional, con un sitio web, personas de todo el país podrán ver todo lo que ofreces. </p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--4. constructoras-->
+            <figure>
+                <img src="img_development/constructora.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Constructora</h3> 
+                <p>Los clientes buscan confiabilidad y experiencia al elegir una constructora. Con un sitio web demostraras el potencial de tu empresa y destacará entre la competencia, atrayendo a más clientes y nuevos proyectos.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--5. Distribuidoras-->
+            <figure>
+                <img src="img_development/distribuidora.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Distribuidora</h3> 
+                <p>El éxito de tu distribuidora comienza con una estrategia digital efectiva. Mejora tu visibilidad en línea, establece relaciones sólidas con tus clientes y futuros clientes, destaca en un mercado competitivo. ¡Es hora de tomar el control!</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--6. manofacturera-->
+            <figure>
+                <img src="img_development/manofacturera.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Manofacturera</h3> 
+                <p>La digitalización es clave para el crecimiento. Con un sitio atractivo y funcional, tu empresa podrá llegar a más clientes, mejorar su imagen y ofrecer un acceso fácil a tus productos.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--7. seguridad-->
+            <figure>
+                <img src="img_development/seguridad.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Seguridad</h3> 
+                <p>Los clientes buscan seguridad y confianza. Un sitio web efectivo permitirá a tu empresa de seguridad mostrar tu servicio, aumentando la confianza y facilitando la comunicación con quienes buscan protección.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--8. Hoteleria-->
+            <figure>
+                <img src="img_development/hoteleria.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Hoteleria</h3> 
+                <p>Convierte tu hotel en el destino favorito de los viajeros. Un sitio web optimizado te ayudará a llegar a más personas, destacando tus servicios y asegurando que cada visitante confíe en elegirte para su próxima estadía.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--9. Restaurantes-->
+            <figure>
+                <img src="img_development/restuarante.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Restaurantes</h3> 
+                <p>La primera impresión es clave. No solo muestres tus platillos, sino también la atmósfera única de tu restaurante. Permite que tus clientes y visitantes de otras áreas conozcan tus instalaciones, la comodidad de tu espacio y el excelente servicio que ofreces. ¡Haz que se sientan como en casa desde el primer vistazo</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--10. Moda-->
+            <figure>
+                <img src="img_development/moda.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Moda</h3> 
+                <p>Un sitio web es tan esencial como la moda misma: atractivo, llamativo y lleno de estilo. Cuando las personas pregunten "¿dónde lo compraste?", asegúrate de que la respuesta sea "en (tu empresa)".</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--11. repuestos-->
+            <figure>
+                <img src="img_development/repuestos.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Repuestos</h3> 
+                <p>Haz que tus clientes encuentren lo que necesitan. Muestra tu catálogo y bríndales una experiencia de servicio confiable y fácil, para que tu marca llegue a más personas y se convierta en la opción preferida.</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--12 suministros-->
+            <figure>
+                <img src="img_development/suministros.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Suministros</h3> 
+                <p>Haz que tus clientes encuentren todo lo que necesitan en un solo lugar. Aumenta tu alcance en un mercado cada vez más conectado, mostrando tus productos y servicios de manera accesible y confiable. ¡Lleva tu empresa a un público más amplio y conviértete en la opción preferida!</p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--13 tecnologia-->
+            <figure>
+                <img src="img_development/tecnologia.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Tecnologia</h3> 
+                <p>Muestra tus productos y servicios de manera clara, genera confianza desde el primer vistazo y haz que tus clientes te recomienden a otros potenciales compradores. </p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+        <div class="card">  <!--14. Otros-->
+            <figure>
+                <img src="img_development/otros.jpg">
+            </figure>
+            <div class="contenido">
+                <h3>Otros</h3> 
+                <p style="color: rgb(38, 36, 65);"><strong>En caso que tu negocio sea de otro rubro y que no este mencionado en esta pagina, selecciona esta opción, asi nos brindas mas informacion de tu negocio y nosotros te apoyamos.</strong></p>
+                <a href="#" class="whatsapp-link" data-service="Aseguradora">Mas información</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer>       
+</body>
+</html>

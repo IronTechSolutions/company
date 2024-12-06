@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/construccion.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="icono/icono.jpg">
+    <title>Iron Tech Solutions</title>
+</head>
+<body>
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+    <!---------------------------------menu----------------------------------------- -->
+    <div class="sidebar">
+        <div class="logo-info">
+            <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                <i class="bx bxl-facebook icon"></i>
+            </a>
+            <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+            <i class="bx bx-menu" id="menu"></i>
+        </div> 
+        <ul>
+            <li>
+                <a href="main.html" class="btn-shine">
+                    <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                    <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                </a>
+            </li>            
+            <li>
+                <a href="desarrolloweb.html" class="btn-shine">
+                    <i class="bx bx-code"></i>
+                    <span class="title">&nbsp;Desarrollo web</span>
+                </a>
+            </li>
+            <li>
+                <a href="herramientas.html" class="btn-shine">
+                    <i class="bx bx-wrench"></i>
+                    <span class="title">&nbsp;Herramientas</span>
+                </a>
+            </li>
+            <li>
+                <a href="para_construccion.html" class="btn-shine" >
+                    <i class="bx bx-building"></i>
+                    <span class="title">&nbsp;Materiales para la construccion</span>
+                </a>
+            </li>
+            <li>
+                <a href="referencias.html" class="btn-shine">
+                    <i class="bx bx-file"></i>
+                    <span class="title">&nbsp;Referencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="contactos.html" class="btn-shine">
+                    <i class="bx bx-envelope"></i>
+                    <span class="title">&nbsp;Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="sobre_nosotros.html" class="btn-shine">
+                    <i class="bx bx-book"></i>
+                    <span class="title">&nbsp;Sobre&nbsp;Nosotros</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="btn-shine">
+                    <i class="bx bx-exit"></i>
+                    <span class="title">&nbsp;Salir</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+<!-- Contenido central  -->
+        <section class="intro-section">
+            <div class="intro-text">
+            <h1>Todo lo que necesitas para tu obra, entregado a tu puerta</h1>
+            <p>Tu obra, nuestra prioridad</p>
+            </div>
+            <div class="arrow">
+            </div>
+        </section>
+
+        <script>
+            // Captura el elemento con la clase 'arrow'
+            const arrow = document.querySelector('.arrow');
+        
+            // Agrega un evento de clic al elemento con la clase 'arrow'
+            arrow.addEventListener('click', () => {
+                // Encuentra el div con la clase 'container'
+                const target = document.querySelector('.container');
+        
+                // Desplázate suavemente hacia el div con la clase 'container'
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        </script>
+<!-------------------------------------------- materiales--------------------->
+<div class="container">
+    <h1>Materiales de Construcción</h1>
+    <input type="text" id="searchBar" placeholder="Buscar materiales..." onkeyup="filterMaterials()">
+    
+    <!-- Grid de Materiales -->
+    <div class="materials-grid" id="materialsGrid">
+      <!-- Material 1 -->
+      <div class="material-card" data-title="Cemento">
+        <div class="image-section">
+          <img src="construction-materials/cemento bijao.webp" alt="Cemento">
+          <p class="price"> Precio L. 260</p>
+        </div>
+        <div class="info-section">
+          <h3>Cemento</h3>
+          <p>Material utilizado para estructuras resistentes.</p>
+          <div class="actions">
+            <input type="number" min="1" max="100" placeholder="Cantidad" class="quantity">
+            <p class="total">Total:&nbsp;L. 0</p>
+            <!-- Botón para añadir al carrito -->
+            <button class="add-to-cart-button" onclick="addToCart('Cemento', 260)">Añadir al carrito</button>
+            <!-- Botón para comprar directamente -->
+            <button class="buy-now-button" onclick="buyNow('Cemento', 260)">Comprar ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Carrito -->
+    <div class="cari" id="cari">
+      <h2>Carrito</h2>
+      <div id="cartItems">
+        <p>Detalles de su compra</p>
+        <br>
+      </div>
+      <div class="subtotal">
+        <p>Subtotal: <span id="subtotal">0</span></p>
+      </div>
+      <button id="clearCartButton" onclick="clearCart()">Limpiar carrito</button>
+      <button id="checkoutButton" onclick="checkout()" disabled>Comprar ahora</button>
+    </div>
+    
+    <!-- Modal de alerta -->
+    <div id="customModal" class="modal">
+      <div class="modal-content">
+        <p id="modalMessage"></p>
+        <button id="modalClose" class="modal-close">Cerrar</button>
+      </div>
+    </div>
+    <script src="scripts/materialescar.js"></script>
+    <script src="scripts/materiales.js"></script>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados.</p>
+    </div>
+</footer> 
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/us.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icono/icono.jpg">
+    <title>Iron Tech Solutions</title>
+    <script defer src="scripts/required.js"></script>
+    <script defer src="scripts/verify.js"></script>
+<body>
+    
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+    <!-----------------------------------------------------------Menu---------------------------------------------------------------------------------- -->
+    <div class="sidebar">
+        <div class="logo-info">
+            <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                <i class="bx bxl-facebook icon"></i>
+            </a>
+            <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+            <i class="bx bx-menu" id="menu"></i>
+        </div> 
+        <ul>
+            <li>
+                <a href="main.html" class="btn-shine">
+                    <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                    <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                </a>
+            </li>            
+            <li>
+                <a href="desarrolloweb.html" class="btn-shine">
+                    <i class="bx bx-code"></i>
+                    <span class="title">&nbsp;Desarrollo web</span>
+                </a>
+            </li>
+            <li>
+                <a href="herramientas.html" class="btn-shine">
+                    <i class="bx bx-wrench"></i>
+                    <span class="title">&nbsp;Herramientas</span>
+                </a>
+            </li>
+            <li>
+                <a href="para_construccion.html" class="btn-shine" >
+                    <i class="bx bx-building"></i>
+                    <span class="title">&nbsp;Materiales para la construccion</span>
+                </a>
+            </li>
+            <li>
+                <a href="referencias.html" class="btn-shine">
+                    <i class="bx bx-file"></i>
+                    <span class="title">&nbsp;Referencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="contactos.html" class="btn-shine">
+                    <i class="bx bx-envelope"></i>
+                    <span class="title">&nbsp;Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="sobre_nosotros.html" class="btn-shine">
+                    <i class="bx bx-book"></i>
+                    <span class="title">&nbsp;Sobre Nosotros</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="btn-shine">
+                    <i class="bx bx-exit"></i>
+                    <span class="title">&nbsp;Salir</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="main.js"></script>
+
+    <!-- contenido central -->
+    <section class="intro-section">
+        <div class="intro-text">
+            <h1>Conoce mas de Irontech Solutions</h1>
+            <p>Nuestra filosofia y valores</p>
+        </div>
+        <div class="arrow"></div>
+    </section>
+
+    <!--mensaje y division del encabezado y contenido principal-->
+    <div class="littlemessage">
+        <h1>Mira las opciones de desarrollo que tenemos para ti</h1>
+    </div>
+
+    <script>
+        // Captura el elemento con la clase 'arrow'
+        const arrow = document.querySelector('.arrow');
+    
+        // Agrega un evento de clic al elemento con la clase 'arrow'
+        arrow.addEventListener('click', () => {
+            // Encuentra el div con la clase 'container'
+            const target = document.querySelector('.info-box-main');
+    
+            // Desplázate suavemente hacia el div con la clase 'container'
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    </script>
+
+    <!------------------------------------------------- us-------------------------------------------------------------------------------------------- -->
+  <script src="scripts/us.js"></script>
+    <!-- Start About Page  -->
+<div class="info-box-main">
+    <div class="wrapper-container">
+        <div class="row-container">
+            <div class="column-half">
+                <h2 class="heading-title"><span>IronTech Solutions</span></h2>
+                <p>En Irontech Solutions, nos enfocamos en tres áreas: el desarrollo web, la venta de herramientas y la venta de materiales de construcción.</p> <p>Nuestro objetivo es posicionarnos como líderes en estos tres mercados, ofreciendo soluciones tanto a las personas como a las pymes (pequeñas y medianas empresas). Contamos con un equipo de profesionales en estos rubros, quienes ofrecen su conocimiento y experiencia para el desarrollo de Honduras y de tu proyecto.</p>
+            </div>
+            <div class="column-half">
+                <div class="image-frame"> <img class="thumbnail-image responsive-img" src="backgrounds/mainbackground.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="row-container my-5">
+            <div class="column-4">
+                <div class="feature-box">
+                    <h3>Nuestra Misión</h3>
+                    <p>En Irontech Solutions, nuestra misión es ofrecer soluciones innovadoras en desarrollo web, herramientas y materiales de construcción, ayudando a personas y empresas a alcanzar sus metas de manera eficiente y sostenible, con un enfoque en excelencia y trabajo en equipo, contribuyendo al desarrollo de Honduras y al crecimiento de nuestros clientes.</p>
+                </div>
+            </div>
+            <div class="column-4">
+                <div class="feature-box">
+                    <h3>Nuestra Visión</h3>
+                    <p>Nuestra visión es ser líderes en soluciones tecnológicas y construcción, brindando productos y servicios que impulsen el crecimiento sostenible de nuestros clientes y contribuyan al desarrollo de Honduras.</p>
+                </div>
+            </div>
+            <div class="column-4">
+                <div class="feature-box">
+                    <h3>Nuestro Proposito</h3>
+                    <p>Nuestro propósito es ofrecer soluciones innovadoras y de calidad, incluyendo la entrega de productos a domicilio para mayor comodidad de nuestros clientes, facilitando el desarrollo personal y empresarial, y contribuyendo al progreso de Honduras con compromiso y eficiencia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row-container my-4">
+            <div class="column-full">
+                <br>
+                <h2 class="heading-title">Conoce nuestro equipo</h2>
+            </div>
+            <div class="column-quarter">
+                <div class="hover-effect-team">
+                    <div class="team-member"> <img src="team/perfil.jpg" alt="" />
+                        <div class="team-content">
+                            <h3 class="member-title">Erik Molina</h3> <span class="member-position">Socio</span> </div>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" class="social-icon facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon twitter-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon googleplus-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon youtube-icon"></a>
+                            </li>
+                        </ul>
+                        <div class="additional-info-icon"> <i class="plus-icon" aria-hidden="true"></i> </div>
+                    </div>
+                    <div class="team-description">
+                        <p>Un profesional con conocimientos en desarrollo web, capaz de visualizar ideas innovadoras y eficientes para satisfacer las necesidades de nuestros clientes. Además, cuenta con experiencia en temas administrativos y operativos en el sector industrial, lo que le permite gestionar proyectos de manera organizada y eficiente.</p> 
+                    </div>
+                    <hr class="no-margin"> </div>
+            </div>
+            <div class="column-quarter">
+                <div class="hover-effect-team">
+                    <div class="team-member"> <img src="team/perfil.jpg" alt="" />
+                        <div class="team-content">
+                            <h3 class="member-title">Angel Guardado</h3> <span class="member-position">Socio</span> </div>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" class="social-icon facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon twitter-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon googleplus-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon youtube-icon"></a>
+                            </li>
+                        </ul>
+                        <div class="additional-info-icon"> <i class="plus-icon" aria-hidden="true"></i> </div>
+                    </div>
+                    <div class="team-description">
+                        <p>Un profesional que cuenta con un amplio conocimiento y experiencia en temas de seguridad corporativa. Además, cuenta con experiencia y conocimientos en el área de construcción, lo que lo convierte en un miembro valioso para proyectos relacionados con la infraestructura y el desarrollo en el sector.</p>
+
+                    </div>
+                    <hr class="no-margin"> </div>
+            </div>
+            <div class="column-quarter">
+                <div class="hover-effect-team">
+                    <div class="team-member"> <img src="team/perfil.jpg" alt="" />
+                        <div class="team-content">
+                            <h3 class="member-title">Gustavo Cerrato</h3> <span class="member-position">Socio</span> </div>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" class="social-icon facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon twitter-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon googleplus-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon youtube-icon"></a>
+                            </li>
+                        </ul>
+                        <div class="additional-info-icon"> <i class="plus-icon" aria-hidden="true"></i> </div>
+                    </div>
+                    <div class="team-description">
+                        <p>Un profesional con amplios conocimientos en tecnología, el sector industrial, administración y financiero. Lo que le permite interceptar las necesidades de tu negocio y diseñar soluciones estratégicas que optimicen recursos y fomenten el crecimiento. Su enfoque integral garantiza una gestión efectiva y resultados alineados con los objetivos empresariales.</p>
+                    </div>
+                    <hr class="no-margin"> </div>
+            </div>
+            <div class="column-quarter">
+                <div class="hover-effect-team">
+                    <div class="team-member"> <img src="team/perfil.jpg" alt="" />
+                        <div class="team-content">
+                            <h3 class="member-title">Bryan Navas</h3> <span class="member-position">Socio</span> </div>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" class="social-icon facebook-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon twitter-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon googleplus-icon"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-icon youtube-icon"></a>
+                            </li>
+                        </ul>
+                        <div class="additional-info-icon"> <i class="plus-icon" aria-hidden="true"></i> </div>
+                    </div>
+                    <div class="team-description">
+                        <p>Un profesional y líder en temas administrativos del sector industrial, con experiencia tanto operativa como administrativa. Posee un amplio conocimiento en materiales de construcción y sus procesos de fabricación, especialmente en logística, lo que le permite gestionar y optimizar proyectos de manera eficiente en la industria.</p>
+                    </div>
+                    <hr class="no-margin"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- End About Page -->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados.</p>
+            </div>
+        </footer> 
+    
+</body>
+</html>
