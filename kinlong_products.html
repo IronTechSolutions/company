@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/coperation.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="icono/icono.jpg">
+    <title>Iron Tech Solutions</title>
+</head>
+<body>
+    <script>
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Bloquear F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+Shift+I
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloquear Ctrl+U
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+    <!---------------------------------menu----------------------------------------- -->
+    <div class="sidebar">
+        <div class="logo-info">
+            <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
+                <i class="bx bxl-facebook icon"></i>
+            </a>
+            <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
+            <i class="bx bx-menu" id="menu"></i>
+        </div> 
+        <ul>
+            <li>
+                <a href="main.html" class="btn-shine">
+                    <i class="bx bx-home"></i> <!-- Icono de Inicio -->
+                    <span class="title">&nbsp;Inicio</span> <!-- Texto -->
+                </a>
+            </li>            
+            <li>
+                <a href="desarrolloweb.html" class="btn-shine">
+                    <i class="bx bx-code"></i>
+                    <span class="title">&nbsp;Desarrollo web</span>
+                </a>
+            </li>
+            <li>
+                <a href="herramientas.html" class="btn-shine">
+                    <i class="bx bx-wrench"></i>
+                    <span class="title">&nbsp;Herramientas</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="btn-shine">
+                    <i class="bx bx-building"></i> <!-- Icono de Kinlong -->
+                    <span class="title">&nbsp;Kinlong Hardware</span> <!-- Texto -->
+                </a>
+            </li>
+            <li>
+                <a href="para_construccion.html" class="btn-shine" >
+                    <i class="bx bx-building"></i>
+                    <span class="title">&nbsp;Materiales para la construccion</span>
+                </a>
+            </li>
+            <li>
+                <a href="referencias.html" class="btn-shine">
+                    <i class="bx bx-file"></i>
+                    <span class="title">&nbsp;Referencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="contactos.html" class="btn-shine">
+                    <i class="bx bx-envelope"></i>
+                    <span class="title">&nbsp;Contacto</span>
+                </a>
+            </li>
+            <li>
+                <a href="sobre_nosotros.html" class="btn-shine">
+                    <i class="bx bx-book"></i>
+                    <span class="title">&nbsp;Sobre&nbsp;Nosotros</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="btn-shine">
+                    <i class="bx bx-exit"></i>
+                    <span class="title">&nbsp;Salir</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+<!-- --------------------------------------Contenido central  ----------------------------------------->
+        <section class="intro-section">
+            <div class="intro-text">
+                <br>
+                <br>
+                <br>
+            <h1>Todo lo que necesitas para tu obra, entregado a tu puerta</h1>
+            <p>Tu obra, nuestra prioridad. A través de nuestra colaboración con Kinlong, puedes realizar pedidos de productos de la más alta calidad para tu proyecto.</p>
+            <p><strong>Kinlong Group te ofrece:</strong></p>
+            </div>
+            <div class="arrow">
+            </div>
+        </section>
+
+        <script>
+            // Captura el elemento con la clase 'arrow'
+            const arrow = document.querySelector('.arrow');
+        
+            // Agrega un evento de clic al elemento con la clase 'arrow'
+            arrow.addEventListener('click', () => {
+                // Encuentra el div con la clase 'container'
+                const target = document.querySelector('.product-container');
+        
+                // Desplázate suavemente hacia el div con la clase 'container'
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        </script>
+<!------------------------------------------------ menu de categorias -------------------------------------------------->
+<nav class="navbar">
+    <ul class="categories-menu">
+        <li class="category-item">
+            <a href="#" data-category-id="Ferretería D&W">Ferretería D&W</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-ferr-aluminio-lujo">Ferretería D&W de Aluminio de Lujo</a></li>
+                <li><a href="#" id="product-aluminio-dw-hardware">Aluminio D&W Hardware</a></li>
+                <li><a href="#" id="product-upvc-dw-hardware">UPVC D&W Hardware</a></li>
+            </ul>
+        </li>
+        <li class="category-item">
+            <a href="#" data-category-id="Integracion D&W">Integracion D&W</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-accesorios-afiliados">Accesorios Afiliados D&W</a></li>
+                <li><a href="#" id="product-accesorios-vidrio-dgu">Accesorios para Vidrio DGU</a></li>
+            </ul>
+        </li>
+        <li class="category-item">
+            <a href="#">Productos Barandillas y Postes</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-canal-u-aluminio">Canal U de aluminio</a></li>
+                <li><a href="#" id="product-base-montaje-vidrio">Base de montaje para vidrio</a></li>
+                <li><a href="#" id="product-abrazadera-vidrio">Abrazadera para vidrio</a></li>
+                <li><a href="#" id="product-accesorios-pasamanos">Accesorios para pasamanos</a></li>
+                <li><a href="#" id="product-varilla-micro">Varilla micro y sus accesorios</a></li>
+                <li><a href="#" id="product-microcable-accesorios">Microcable y sus accesorios</a></li>
+                <li><a href="#" id="product-pilar">Pilar</a></li>
+            </ul>
+        </li>
+        <li class="category-item">
+            <a href="#">Productos de muro cortina</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-routel">Routel</a></li>
+                <li><a href="#" id="product-spider">Spider</a></li>
+                <li><a href="#" id="product-abrazadera">Abrazadera</a></li>
+                <li><a href="#" id="product-conector">Conector</a></li>
+                <li><a href="#" id="product-abrazadera-colgar-vidrio">Abrazadera para colgar vidrio</a></li>
+                <li><a href="#" id="product-manguito-aluminio-dgu">Manguito de aluminio para vidrio DGU</a></li>
+                <li><a href="#" id="product-abrazadera-conexion-columnas">Abrazadera de conexión para columnas</a></li>
+                <li><a href="#" id="product-accesorios-toldos">Accesorios para toldos</a></li>
+            </ul>
+        </li>        
+        <li class="category-item">
+            <a href="#">Sistema de puerta de vidrio y ducha</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-ajuste-puerta">Productos para ajuste de puerta</a></li>
+                <li><a href="#" id="product-accesorios-bano">Accesorios para baño</a></li>
+            </ul>
+        </li>        
+        <li class="category-item">
+            <a href="#">Sistemas de exhibición y instalaciones públicas</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-sistemas-exhibicion">Sistemas de exhibición</a></li>
+                <li><a href="#" id="product-instalaciones-publicas">Instalaciones públicas</a></li>
+            </ul>
+        </li>
+        <li class="category-item">
+            <a href="#">Materiales de decoración</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-gabinetes">Gabinetes</a></li>
+                <li><a href="#" id="product-articulos-hogar">Artículos para el hogar</a></li>
+                <li><a href="#" id="product-material-pisos">Material para pisos</a></li>
+                <li><a href="#" id="product-ceramica-pisos">Productos de cerámica para pisos</a></li>
+                <li><a href="#" id="product-material-decoracion-paredes">Material de decoración para paredes</a></li>
+                <li><a href="#" id="product-decorativo-linea">Productos decorativos de línea</a></li>
+                <li><a href="#" id="product-sombreado-solar">Productos para sombreado solar</a></li>
+                <li><a href="#" id="product-recubrimiento">Productos de recubrimiento</a></li>
+            </ul>
+        </li>
+        <li class="category-item">
+            <a href="#">Herramientas y suministros</a>
+            <ul class="submenu">
+                <li><a href="#" id="product-perno-anclaje">Perno de anclaje</a></li>
+                <li><a href="#" id="product-herramientas-instalacion">Herramientas de instalación</a></li>
+                <li><a href="#" id="product-equipos-manipulacion">Equipos de manipulación</a></li>
+                <li><a href="#" id="product-equipos-deteccion">Equipos de detección</a></li>
+                <li><a href="#" id="product-equipos-limpieza">Equipos de limpieza</a></li>
+                <li><a href="#" id="product-productos-adhesivos">Productos adhesivos</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Barra de búsqueda -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos..." class="search-input">
+        <button onclick="searchProducts()" class="search-button">Buscar</button>
+    </div>
+</nav>
+
+<!-- Estilos -->
+<style>
+    .search-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .search-input {
+        width: 80%;
+        padding: 8px;
+        font-size: 16px;
+        margin-right: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    .search-button {
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .search-button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+
+<!-- Card container -->
+<div id="product-container" class="product-container"></div>
+
+<div id="product-details" class="product-details hidden">
+    <button id="back-btn">Volver</button>
+    <!-- Agregar imagen del producto -->
+    <h2 id="product-title"></h2>
+    <div id="product-image" class="product-image">
+        <img src="" alt="Imagen del producto" id="product-img">
+    </div>
+    <p id="product-description"></p> <!-- Mostrar description aquí -->
+
+    <!-- Contenedor para imágenes adicionales -->
+    <div id="more-images" class="more-images"></div>
+
+    <button id="more-info-btn">Más información</button>
+    <button id="order-btn">Realizar un pedido</button>
+    <!-- <button id="cart-btn">
+        <i class='bx bx-cart'></i> Añadir al carrito
+    </button> -->
+    
+
+    <!-- formulario -->
+    <div id="order-form" class="hidden">
+        <h3>Formulario de Pedido</h3>
+        <form method="https://formspree.io/f/mkgnkryb" action="POST">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre" required>
+    
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="Teléfono" required>
+    
+            <label for="country">País</label>
+            <div class="country-select-wrapper">
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Seleccione un país</option>
+                    <optgroup label="Centroamérica">
+                        <option value="Guatemala" data-flag="flags/guatemala.png">Guatemala</option>
+                        <option value="El Salvador" data-flag="flags/elsalvador.png">El Salvador</option>
+                        <option value="Honduras" data-flag="flags/honduras.png">Honduras</option>
+                        <option value="Nicaragua" data-flag="flags/nicaragua.png">Nicaragua</option>
+                        <option value="Costa Rica" data-flag="flags/costarica.png">Costa Rica</option>
+                        <option value="Panamá" data-flag="flags/panama.png">Panamá</option>
+                    </optgroup>
+                    <optgroup label="Caribe">
+                        <option value="Cuba" data-flag="flags/cuba.png">Cuba</option>
+                        <option value="República Dominicana" data-flag="flags/dominicana.png">República Dominicana</option>
+                        <option value="Puerto Rico" data-flag="flags/puertorico.png">Puerto Rico</option>
+                        <option value="Jamaica" data-flag="flags/jamaica.png">Jamaica</option>
+                        <option value="Trinidad y Tobago" data-flag="flags/trinidad.png">Trinidad y Tobago</option>
+                    </optgroup>
+                    <option value="Otro" data-flag="flags/otro.png">Otro</option>
+                </select>
+                <span id="country-flag"></span>
+            </div>
+    
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="Correo" required>
+    
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+    
+            <button type="submit" id="submit-btn">Enviar</button>
+            <button type="button" id="cancel-btn">Cancelar</button>
+        </form>
+    </div>
+    
+</div>
+
+<script src="scripts/coope.js"></script>
+
+
+    <!---------------------------------------------------- Footer------------------------------------------------------------------- -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="rights">&copy; 2024 IronTech Solutions. Todos los derechos reservados. Imagenes e informacion proporcionadas por Kinglong gruop.</p>
+        </div>
+    </footer> 
+
+</body>
+</html>
