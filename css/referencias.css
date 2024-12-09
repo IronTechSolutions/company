@@ -12,17 +12,17 @@ body {
     background-color:#ffffff;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     background-attachment: fixed;
 }
 
 /* Estilos del menú superior */
 .sidebar {
     position: fixed;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%; 
-    padding: 10px 14px;
+    padding: 14px 14px;
     z-index: 9;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ body {
 .logo-info {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .logo-info .icon {
@@ -66,7 +66,7 @@ body {
     justify-content: center; /* Centra los elementos horizontalmente */
     list-style: none;
     padding: 0;
-    gap: 50px; /* Espacio entre los elementos */
+    gap: 21px; /* Espacio entre los elementos */
     font-size: bold;
 }
 
@@ -93,9 +93,8 @@ body {
 
 .sidebar ul li a:hover {
     background: #000000;
-    color: #ffeded;
+    color: #fff;
 }
-
 
 /* -------------------------Sidebar en pantallas pequeñas-------------------------------------------- */
 @media (max-width: 768px) {
@@ -124,10 +123,9 @@ body {
 
     /* Estilos para los íconos en el menú */
     .sidebar ul li {
-        background-color: rgba(0, 0, 0, 0.42);
+        background-color: rgba(0, 0, 0, 0.70);
         margin: -7px;
         border: solid black 1px 1px 1px 1px ;
-        border-radius: 10px;
         margin: -10px;
     }
 
@@ -183,6 +181,7 @@ body {
     }
     
 }
+
 
 /* -----------------------------Estilos para la sección de presentación---------------- */
 .intro-section {
