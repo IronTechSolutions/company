@@ -187,7 +187,7 @@ body {
 
 /* ------------------------- Contenido central -------------------------------------------- */
 .intro-section {
-    background-image: url('https://en.kinlong.com/upload/zindex_img43.jpg'); /* Imagen de fondo */
+    background-image: url('https://arquitecturaviva.com/assets/uploads/obras/44268/av_imagen.webp'); /* Imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra toda la sección */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -207,7 +207,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(86, 59, 59, 0.5); /* Capa translúcida negra */
+    background-color: rgba(151, 106, 106, 0.3); /* Capa translúcida negra */
     z-index: 1; /* Asegura que esté detrás del texto */
 }
 
