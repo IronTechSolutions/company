@@ -1175,24 +1175,24 @@ const products = [
 
     {       //productos con id product-upvc-dw-hardware 3)
         id: 'product-upvc-dw-hardware',
-        title: 'Transmitter/Y2CDQ015-400',
+        title: 'Anti-bacteria Handle/PZSNK00130',
         description: 'Suitable for Casement window.',
-        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/K0TCVI3A0gHrd9Pit7MxUyaYzhCf81vnmtasIcEy.png',
-        details: 'Product category：Transmitter Main material：Stainless steel.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ox5REEsuNJgrhi2MtbbinL5DjOuWz9cITysU6cMZ.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
         moreImages: [
-            'https://imart.kinlong.com:9091/storage/uploads/pictures/auJG9yC0aYj9p3qSfiBnXlK0lpDciSrSA4a5NbGW.jpg',
-            //'https://via.placeholder.com/300x200'
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/7QrrH6fRMrqT9Y9cWlBMUKWA4Rz25h4Mc5nv5EWb.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/S5AE2lcQoXhH6OPU70jIS4HJm59mWQkbwG0adTet.jpg'
         ]
     },
     {
-        id: 'product-ferr-aluminio-lujo',
-        title: 'Ferretería D&W de Aluminio de Lujo',
-        description: 'Productos de alta calidad en aluminio.',
-        image: 'https://via.placeholder.com/250x150',
-        details: 'Detalles adicionales sobre el producto.',
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSNK00230',
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/mu49RteAZpXNvraYPUrXjlLCQY0OiAv5XNPv1a6O.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
         moreImages: [
-            'https://via.placeholder.com/300x200',
-            'https://via.placeholder.com/300x200'
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/IhB0MAe8mMdD7B3XTvhMbOkR7K3u5YDFgg2ZE1HB.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/e6Di1AT1x5MrUzLJfiU2yH22zWmktiDUBoyHHUQK.jpg'
         ]
     },
 
