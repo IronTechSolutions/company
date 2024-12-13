@@ -222,7 +222,7 @@ body {
 
 /* Estilo para el texto dentro de la sección de presentación */
 .intro-text h1 {
-    font-size: 3rem; /* Tamaño grande para el título */
+    font-size: 2.3rem; /* Tamaño grande para el título */
     font-family: 'Playfair Display', serif; /* Fuente elegante */
     margin-bottom: 20px;
     opacity: 0; /* Invisible por defecto */
@@ -303,6 +303,7 @@ body {
     object-fit: cover;
 }
 
+
 .product-card h3 {
     margin: 10px;
 }
@@ -365,6 +366,10 @@ body {
     max-width: 400px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+}
+.product-details .product-image img:hover{
+    transform: scale(1.2);
 }
 
 .product-details button {
@@ -442,29 +447,24 @@ body {
 .more-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px; /* Espaciado entre imágenes */
     margin-top: 20px;
     max-width: 100%;
     padding: 10px;
     background-color: #fff; /* Fondo blanco para resaltar imágenes */
     border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
 /* Estilos para las imágenes adicionales */
 .more-images img {
     width: 100%;
-    max-width: 400px; /* Aumentar el tamaño máximo de las imágenes */
+    max-width: 700px; /* Aumentar el tamaño máximo de las imágenes */
     border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
     cursor: pointer; /* Mostrar que son clicables */
-}
-
-.more-images img:hover {
-    transform: scale(1.9); /* Efecto de zoom */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    object-fit: contain; /* Mantiene la relación de aspecto */
 }
 
 
@@ -756,6 +756,14 @@ body {
     margin-left: 10px;
     display: none;
 }
+
+.product-card .more-info {
+    margin-left: 5px;
+    color: #5f5f5f; /* El color que desees para el texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado */
+    font-weight: bold; /* Opcional, para hacerlo más destacado */
+}
+
 
 
 /* -----------------------------------------Carrito---------------------------------------------------- */
