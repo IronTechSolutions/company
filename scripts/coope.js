@@ -1199,9 +1199,10 @@ const products = [
 
 
 
-    //ITEMS SOLO PARA Integracion D&W
+    //-------------------------------------------------ITEMS SOLO PARA Integracion D&W segunda opcion--------------------------------------------------
+    // subcategoria 1 product-accesorios-afiliados
     {
-        id: 'product-ferr-aluminio-lujo',
+        id: 'product-accesorios-afiliados',
         title: 'Ferretería D&W de Aluminio de Lujo',
         description: 'Productos de alta calidad en aluminio.',
         image: 'https://via.placeholder.com/250x150',
@@ -1222,6 +1223,8 @@ const products = [
             'https://via.placeholder.com/300x200'
         ]
     },
+
+    //subcategoria 2
 
 
     //ITEMS SOLO PARA Productos Barandillas y Postes
@@ -1250,6 +1253,16 @@ const products = [
 
 
 
+
+
+
+
+
+
+
+
+
+
     //ITEMS SOLO PARA Productos de muro cortina
     {
         id: 'product-aluminio-dw-hardware',
@@ -1273,6 +1286,21 @@ const products = [
             'https://via.placeholder.com/300x200'
         ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     //ITEMS SOLO PARA Sistema de puerta de vidrio y ducha
@@ -1300,6 +1328,22 @@ const products = [
     },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //ITEMS SOLO PARA Materiales de decoración
     {
         id: 'product-aluminio-dw-hardware',
@@ -1325,30 +1369,268 @@ const products = [
     },
 
 
-        // ITEMS SOLO PARA Herramientas y suministros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // -----------------------------------ITEMS SOLO PARA Herramientas y suministros----------------------------------
+
+        // -----------------------------------apartado solo para Equipos de manipulación-------------------------------------
+
     {
-        id: 'product-aluminio-dw-hardware',
-        title: 'Aluminio D&W Hardware',
-        description: 'Aluminio para aplicaciones industriales.',
-        image: 'https://via.placeholder.com/250x150',
-        details: 'Descripción extendida de este producto.',
+        id: 'product-equipos-manipulacion',
+        title: 'Manual hydraulic pallet forklift/JXC-P3001', // 1 ready
+        description: 'Suitable for handling goods with large volume or pallets.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/7MNupZxCmVp7E85dGYXQsXr8YY8wxYKROqQ6K4jL.jpg',
+        details: 'Hydraulic forklift Specifications: 3T*680MM*1200MM Color: Tangerine.',
         moreImages: [
-            'https://via.placeholder.com/300x200',
-            'https://via.placeholder.com/300x200'
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/xNvIwdn4GQg1uamWd8Cbui9oz8pHtpg8ljLyo6YN.jpg',
+            //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-upvc-dw-hardware',
-        title: 'UPVC D&W Hardware',
-        description: 'Materiales UPVC de alta calidad.',
-        image: 'https://via.placeholder.com/250x150',
-        details: 'Detalles sobre los materiales UPVC.',
+        id: 'product-equipos-manipulacion',
+        title: 'Manual hydraulic forklift/JCBY-AC3.0T', // 2 ready
+        description: 'Suitable for handling goods with large volume or pallets..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ZslZ7Q6XOQY0I4EE9iQSILG7iCs1uoYPFae0gqq4.jpg',
+        details: 'Hydraulic forklift Specifications: 550MM*1150MM*3.0T Color: Orange.',
         moreImages: [
-            'https://via.placeholder.com/300x200',
-            'https://via.placeholder.com/300x200'
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/rB0prIhuuReZu0fTLpHSkEp80lYfkQRdTfmPHdbd.jpg',
+            //'https://via.placeholder.com/300x200'
         ]
-    }
+    },
+    {
+        id: 'product-equipos-manipulacion',
+        title: 'Pallet truck/JCBY-JC2.0T', // 3 ready
+        description: 'JCBY-JC light hydraulic truck is economical. Because of its compact car body, flexible movement, light weight, energy saving and environmental protection, and superior performance, it is widely used in factories, workshops, warehouses and other occasions that need horizontal handling, mainly for carrying pallets or goods directly.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Rfrm8b1ZaMqQGkFbwnvAzJr52oucDAEC2UBrCKP0.jpg',
+        details: 'Classification: Handling Product model: JCBY-JC2.0T Color: Tangerine Product specifications: 550mm*1150mm*2.0t Commodity number: 158701030042 Production cycle: 7 days.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/OPuzLiuruF5O6L9tbRGQAJT5hp9Dk14MVNfZKlpt.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', 
+        title: 'Pallet truck/JCBY-5.0T', // 4 ready
+        description: 'Manual hydraulic truck 5.0T Made of high quality Baosteel, the car body can be made of channel steel or 6MM steel plate. Heavy-duty load-bearing design can easily carry overweight goods. Unique hydraulic pump ensures easy lifting of heavy goods. Super nylon bearing wheel and steering wheel are durable. Suitable for heavy metal processing, stone processing, ceramics and other occasions of ultra-heavy cargo handling.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/uw7ZrCKMKf90ro44vvCDlKBJ3tl1wIvm4Dityfns.jpg',
+        details: 'Classification: Handling Product model: JCBY-5.0T Color: Tangerine Product specifications: 550mm*1150mm*2.0t Commodity number: 158701030073 Production cycle: 7 days.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/K4lsNvvCvmYik3zJtX4oPtcZpfRTxVp4pfeFiYpN.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+
+    {
+        id: 'product-equipos-manipulacion',
+        title: 'Long type manual hydraulic forklift/JCBY-LC3.0T', // 5 ready
+        description: 'Suitable for handling goods with large volume or pallets..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/I2tKHdSho8tusTCmnxMV7ktCzgjXednZlHAh6hDT.jpg',
+        details: 'Hydraulic forklift Specifications: 685MM*1400MM*3.0T Color: Orange.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/FvmaWLlpDpWQss8vdWFjB2us9Jt6KSydm42rhxNI.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 6 ready 
+        title: 'Electric balanced heavy duty forklift/JZL-CPD15FJ5',
+        description: 'Suitable for handling goods with large volume or pallets.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/5aMQkWvcRsJmLb5tzLtMkq5Sgr01M7DVBjlKUQHk.jpg',
+        details: 'Electric forklift Specifications: 1.5T*3.0M/Two section and three-meter gantry/Pneumatic tire Color: Orange.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/nTbyf4u1V7hgq6OHY3ikisXp0LVCJyAEiFSmLYrv.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 7 ready
+        title: 'Electrical counterweight forklift/JZL-CPD25F8',
+        description: 'Security Emergency power-off switch, which can easily cut off all power supplies when the operation is out of control to avoid emergency; Low voltage automatic protection, extending battery life; Strong roof protection frame design, safer operation; Lifting overload protection, explosion-proof design of hydraulic system, even if the oil pipe bursts, the gantry will not drop quickly, improving safety; Regenerative braking and anti-skid on slopes ensure driving safety. Characteristic configuration Upper and lower pedals, equipped with safety handrails, fully consider the humanized requirements; Intelligent instrument, which can display system information such as electric quantity, service time and fault code, and adjust vehicle parameters and the maximum driving speed according to gear position, which greatly facilitates operation under different working conditions; High-efficiency maintenance-free AC motor, high torque, strong climbing ability, large traction and strong power, ensures that the car can still run smoothly on uneven roads and ensure the longer service life of the battery; Imported AMP waterproof and dustproof connector; Adjustable steering wheel, large driving space, optimized layout of brake accelerator pedal, innovative design of brand-new instrument position, bringing brand-new driving experience; The steering pressure sensor can be added: so that the pump motor can work when steering is needed, which is more energy-saving..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/zjOI2jLXEInM1mkKC9VmfeHU5wOT7FfqBJFcKPGz.jpg',
+        details: 'Classification: Handling Product model: JZL-CPD25F8 Color: Tangerine Commodity specifications: 2.5T*3.0M/ Two 3m portal frames/pneumatic tires Commodity number: 158701030466 Production cycle: 20 days.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/MgTGQ9WmSb90iy1di9xBZhxVIvDaB6SLNosujStl.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 8 ready
+        title: 'Electrical counterweight forklift/JZL-CPD35FT8H',
+        description: 'Characteristic configuration Upper and lower pedals, equipped with safety handrails, fully consider the humanized requirements; Intelligent instrument, which can display system information such as electric quantity, service time and fault code, and adjust vehicle parameters and the maximum driving speed according to gear position, which greatly facilitates operation under different working conditions; Full AC drive control system; High-efficiency maintenance-free AC motor, high torque, strong climbing ability, large traction and strong power, ensures that the car can still run smoothly on uneven roads and ensure the longer service life of the battery; Imported AMP waterproof and dustproof connector; Adjustable steering wheel, large driving space, optimized layout of brake accelerator pedal, innovative design of brand-new instrument position, bringing brand-new driving experience; The integrated automobile standard fuel tank is used, which is cleaner inside and reliable in performance; New energy-saving tires (new tire pattern, more energy-saving and noise-reducing); The safety shed adopts specially customized pipe design, which is safe and beautiful; Can increase the battery side pull configuration, easily replace the battery, and facilitate continuous operation..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qh9NFYuqIjcikqvUqNTpFKkULJ56uKP7b7eJHz8i.jpg',
+        details: 'Classification: Handling Product model: JZL-CPD35FT8H Color: Tangerine Commodity specifications: 3.5T*3.0M/ Two 3m portal frames/pneumatic tires Commodity number: 158701030470 Production cycle: 20 days.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/QDNy2JWnvONi1qRb38LThh7KBYm4HgbnXOpYZOWY.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 9 ready
+        title: 'Electric Pallet Stacker/JZL-EST121',
+        description: '1. Express delivery is not supported 2. Free delivery over 15,000.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/0H5uiIpt6sfzBaet0vtAv4nLMeAIXTfj494oQSm7.jpg',
+        details: '1. Features: more convenient, wide field of view 2. Color: orange-red.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/eOyKh4p4vaXa4IugkjInGwVnxBDIFNigbhbM3z78.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 10 ready
+        title: 'Electric Pallet Stacker/JZL-ES16-RS',
+        description: '1. Express delivery is not supported 2. Free delivery over 15,000.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/kMn5xg72fCnCzUBNon2cKPwdkxZAee0LYMUrxkOM.jpg',
+        details: '1. Features: high performance, high reliability, easy to operate, safer 2. Color: orange-red.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/duaRMWQ1mDHAJyGvifMX21Fz9QVY08nYUs8gMn4e.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 11 ready
+        title: 'Electric Pallet Stacker/JZL-ES20-20RAS',
+        description: '1. Express delivery is not supported 2. Free delivery over 15,000.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Ga9dEdYsi7XrjhKCQTZYdJIGAVgR1eaYajUffSdx.jpg',
+        details: '1. Features: high performance, high reliability, easy to operate, safer 2. Color: orange-red.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/rLFm4mgGhLBtzdcO4PycaxCQHcAzgaR1RIOiX12y.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 12 ready
+        title: 'All electric truck/JZL-EPT30-RAS',
+        description: '1. Express delivery is not supported 2. Free delivery over 15,000.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/hItSB4JRW9ST2Hzq3oRwRTySwhTGiYMQNg77eTEg.jpg',
+        details: '1. Features: high performance, high reliability, easy to operate, safer 2. Color: orange-red.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/H0gHAurodWbTgfk0ueQN3yOkUNGJRu6oTkkw1nIE.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 13 ready
+        title: 'Electric lift vehicle/JZL-RSB151Z',
+        description: '1. Express delivery is not supported 2. Free delivery over 15,000.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/UTwKPoqZC080vW1JeeFxHw0INeXq5ClUxLjmYhMb.jpg',
+        details: '1. Features: high performance, high reliability, easy to operate, safer 2. Color: orange-red.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/YajZg4n4EZPnJwl73W5dSyV3TyUoQbmB470QnEp4.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 14 ready
+        title: 'Telescopic booms/JGTBZ16S',
+        description: 'Suitable for high-altitude operations..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1c9LXcGYWDdns6D9bNChHt3pL8KhIDDvokIipsfz.jpg',
+        details: 'Telescopic booms Specifications: 1.8M*0.76M diesel 4*2 straight arm/Platform height is 16m Color: Orange.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/3W5q9uLzVrasSjiJesvDrmP4kPZELkp6PBrWboWw.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 15 ready
+        title: 'Articulating booms-engine/JGTBZ14A',
+        description: 'Suitable for high-altitude operations..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/c3Pl7OcWIw1YGOcK4v4fR84cGoZ5MgbAP6XMyttS.jpg',
+        details: 'Articulating booms-engine Specifications: 1.8M*0.76M*1.1M diesel 4*2 tri-fold arm/Platform height is 14m Color: Orange.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/2lf8QMHO5BfsLPf144WGS0LRKOruKCanDQZhSB8w.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 16 ready
+        title: 'Self-propelled shear fork aerial working platform/JZL-GTJZ-6',
+        description: 'It is suitable for high altitude operation from 6 meters to 14 meters.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Gdm7sa690WgtXEBBmCW49opYQnWdyDY7aTDzAVOV.jpg',
+        details: 'Category: Equipment Machinery Product name: self-walking shear fork aerial working platform Color: Orange red Product specification: 2475X1150X1836MM Series: aerial work platform Product model: JZL-GTJZ-6.',
+        moreImages: [
+            '',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    { 
+        id: 'product-equipos-manipulacion', //17 ready
+        title: 'Double masts aluminium alloy aerial lift platform/JGTWY802',
+        description: 'Suitable for high-altitude operations.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/si7dfNDBAhDblUNMR4kvBeKbVjbFQDtPf34ER5M4.jpg',
+        details: 'Double masts aluminium alloy aerial lift platform Specifications: 1.23M*0.61M Color: Orange.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/fZv7S1QeDrHy9o9SCs9ZI5uiBqTqYELfITX3LgJW.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 18  ready
+        title: 'Hydraulic internal combustion counterbalanced forklift/JZL-CPCD50T8',
+        description: 'Handling of goods.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/8JX18imfDLbhcgP55IiNDJ4mtn1jXKkoYsrDgPyu.jpg',
+        details: 'Classification: Handling and unloading Color: Orange-red Product No.: JZL-CPCD50T8 Trade Name: Hydraulic Internal Combustion Engine Counterbalanced Forklift Product specifications: 5.0T*3.0M / two three-meter gantry Item number: 158701030610 Production cycle: 20 days.',
+        moreImages: [
+            //'',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 19
+        title: 'Hydraulic combustion forklift/JZL-CPCD45T8-X',
+        description: 'It is suitable for cargo handling in railway, highway, trade, industry and mining and other logistics operations..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/FtjH3Lt2mloLbVPmcNOaFTLdWPoVCiM5KMnjCdCZ.jpg',
+        details: 'Classification: Handling Product name: hydraulic combustion forklift truck Color: Orange red Product specification: 4.5TX3.0M/ two sections of three meters door frame Product model: JZL-CPCD45T8-X.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/1YNNyxL7PhR1uSMeOcI9D5MKexYqoCUPyqSXdQMa.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 20
+        title: 'Mechanical internal combustion engine counterbalanced forklift/JZL-CPC30',
+        description: 'Handling of goods.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/LVES3bkdBjkuPrBOx7pfsUVc7zAkxaxBq9tGsEkJ.jpg',
+        details: 'Classification: Handling and unloading Product specifications: 3.0T*3.0M / two three-meter mast / pneumatic tires Color: Orange-red Product No.: JZL-CPC30 Specification: 3.0T*3.0M Style: Normal/pneumatic tires Item number: 158701030473 Production cycle: 20 days.',
+        moreImages: [
+            '',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-equipos-manipulacion', // 20
+        title: '',
+        description: '',
+        image: '',
+        details: '.',
+        moreImages: [
+            '',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
 ];
+
+
+
+
+
+
+
+
+
+
+
 // Referencias a elementos del DOM
 const productContainer = document.getElementById("product-container");
 const productDetails = document.getElementById("product-details");
@@ -1376,6 +1658,17 @@ function restoreScrollPosition() {
     }
 }
 
+// Función para truncar la descripción y agregar "Ver más..." si tiene más de 10 palabras
+function truncateDescription(description) {
+    const words = description.split(" "); // Separar la descripción en palabras
+    if (words.length > 10) {
+        const truncated = words.slice(0, 10).join(" ") + "..."; // Truncar después de 10 palabras
+        return { truncated, full: description }; // Devolver la descripción truncada y la completa
+    } else {
+        return { truncated: description, full: description }; // Si tiene 10 o menos palabras, no truncar
+    }
+}
+
 // Mostrar productos según el ID del producto
 function loadProductsById(productId) {
     productContainer.innerHTML = ""; // Limpiar el contenedor
@@ -1388,16 +1681,30 @@ function loadProductsById(productId) {
     }
 
     filteredProducts.forEach(product => {
+        const { truncated, full } = truncateDescription(product.description); // Obtener descripción truncada y completa
+
         const card = document.createElement("div");
         card.classList.add("product-card");
         card.innerHTML = `
             <img src="${product.image}" alt="${product.title}" class="product-image">
             <h3>${product.title}</h3>
-            <p>${product.description}</p>
+            <p class="product-description">${truncated}</p>
+            ${truncated !== full ? '<a href="#" class="more-info">Ver más...</a>' : ''}
         `;
         card.setAttribute('data-product-id', product.id);
         card.onclick = () => showProductDetails(product);
         productContainer.appendChild(card);
+
+        // Añadir el evento para mostrar la descripción completa
+        if (truncated !== full) {
+            const moreInfoLink = card.querySelector(".more-info");
+            moreInfoLink.addEventListener("click", (e) => {
+                e.preventDefault();
+                const descriptionElement = card.querySelector(".product-description");
+                descriptionElement.textContent = full; // Mostrar la descripción completa
+                moreInfoLink.remove(); // Eliminar el enlace "Ver más..."
+            });
+        }
     });
 
     restoreScrollPosition(); // Restaurar la posición del scroll al cargar productos
@@ -1465,7 +1772,8 @@ const lastCategory = localStorage.getItem("lastCategory");
 if (lastCategory) {
     loadProductsById(lastCategory); // Cargar la categoría guardada
 } else {
-    loadProductsById('product-ferr-aluminio-lujo'); // Cambia este ID según tu configuración inicial
+    // Cargar la categoría predeterminada si no hay una categoría guardada
+    loadProductsById('product-equipos-manipulacion'); // Aseguramos que esta categoría se cargue inicialmente
 }
 
 // Función de búsqueda de productos
@@ -1479,19 +1787,34 @@ function searchProducts() {
         productContainer.innerHTML = `<p>No se encontraron productos que coincidan con "${searchQuery}".</p>`;
     } else {
         filteredProducts.forEach(product => {
+            const { truncated, full } = truncateDescription(product.description); // Obtener descripción truncada y completa
             const card = document.createElement("div");
             card.classList.add("product-card");
             card.innerHTML = `
                 <img src="${product.image}" alt="${product.title}" class="product-image">
                 <h3>${product.title}</h3>
-                <p>${product.description}</p>
+                <p class="product-description">${truncated}</p>
+                ${truncated !== full ? '<a href="#" class="more-info"></a>' : ''}
             `;
             card.setAttribute('data-product-id', product.id);
             card.onclick = () => showProductDetails(product);
             productContainer.appendChild(card);
+
+            // Añadir el evento para mostrar la descripción completa
+            if (truncated !== full) {
+                const moreInfoLink = card.querySelector(".more-info");
+                moreInfoLink.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    const descriptionElement = card.querySelector(".product-description");
+                    descriptionElement.textContent = full; // Mostrar la descripción completa
+                    moreInfoLink.remove(); // Eliminar el enlace "Ver más..."
+                });
+            }
         });
     }
 }
 
 // Evento para la búsqueda cuando se escribe en el campo
 searchInput.addEventListener('input', searchProducts);
+
+
