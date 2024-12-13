@@ -447,6 +447,7 @@ body {
 .more-images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px; /* Espaciado entre imágenes */
     margin-top: 20px;
     max-width: 100%;
@@ -459,12 +460,16 @@ body {
 /* Estilos para las imágenes adicionales */
 .more-images img {
     width: 100%;
-    max-width: 700px; /* Aumentar el tamaño máximo de las imágenes */
+    max-width: 400px; /* Aumentar el tamaño máximo de las imágenes */
     border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
     cursor: pointer; /* Mostrar que son clicables */
-    object-fit: contain; /* Mantiene la relación de aspecto */
+}
+
+.more-images img:hover {
+    transform: scale(1.9); /* Efecto de zoom */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
 
 
