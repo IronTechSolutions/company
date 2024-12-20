@@ -10,7 +10,7 @@
     <title>Iron Tech Solutions</title>
 </head>
 <body>
-    <script>
+    <!-- <script>
         document.addEventListener("contextmenu", event => event.preventDefault());
     </script>
     <script>
@@ -28,7 +28,7 @@
                 event.preventDefault();
             }
         });
-    </script>
+    </script> -->
     <!---------------------------------menu----------------------------------------- -->
     <div class="sidebar">
         <div class="logo-info">
@@ -217,7 +217,7 @@
         padding: 8px;
         font-size: 16px;
         margin-right: 10px;
-        border-radius: 4px;
+        border-radius: 15px;
         border: 1px solid #ccc;
     }
     .search-button {
@@ -259,7 +259,7 @@
     <!-- formulario -->
     <div id="order-form" class="hidden">
         <h3>Formulario de Pedido</h3>
-        <form method="https://formspree.io/f/mkgnkryb" action="POST">
+        <form action="https://formspree.io/f/mkgnkryb" method="POST">
             <label for="name">Nombre</label>
             <input type="text" id="name" name="name" placeholder="Nombre" required>
     
@@ -277,7 +277,7 @@
                         <option value="Nicaragua" data-flag="flags/nicaragua.png">Nicaragua</option>
                         <option value="Costa Rica" data-flag="flags/costarica.png">Costa Rica</option>
                         <option value="Panamá" data-flag="flags/panama.png">Panamá</option>
-                    </optgroup>
+                    </optgroup> 
                     <optgroup label="Caribe">
                         <option value="Cuba" data-flag="flags/cuba.png">Cuba</option>
                         <option value="República Dominicana" data-flag="flags/dominicana.png">República Dominicana</option>
