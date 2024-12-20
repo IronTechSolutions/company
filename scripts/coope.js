@@ -1604,7 +1604,7 @@ const products = [
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/LVES3bkdBjkuPrBOx7pfsUVc7zAkxaxBq9tGsEkJ.jpg',
         details: 'Classification: Handling and unloading Product specifications: 3.0T*3.0M / two three-meter mast / pneumatic tires Color: Orange-red Product No.: JZL-CPC30 Specification: 3.0T*3.0M Style: Normal/pneumatic tires Item number: 158701030473 Production cycle: 20 days.',
         moreImages: [
-            '',
+            //'',
             //'https://via.placeholder.com/300x200'
         ]
     },
@@ -1720,11 +1720,14 @@ function showProductDetails(product) {
     productImg.src = product.image;
     productTitle.textContent = product.title;
 
-    // Mostrar tanto description como details
-    productDescription.innerHTML = `
+// Mostrar tanto description como details
+productDescription.innerHTML = `
+    <div style="text-align: justify;">
         <strong>Descripción:</strong> ${product.description}<br><br>
         <strong>Detalles:</strong> ${product.details}
-    `;
+    </div>
+`;
+
 
     // Mostrar imágenes adicionales
     moreImagesContainer.innerHTML = ""; // Limpiar contenedor de imágenes adicionales
@@ -1767,14 +1770,10 @@ document.querySelectorAll('.submenu a').forEach(link => {
 orderBtn.onclick = () => orderForm.classList.remove("hidden");
 cancelBtn.onclick = () => orderForm.classList.add("hidden");
 
-// Inicializar con los productos de la última categoría visitada
-const lastCategory = localStorage.getItem("lastCategory");
-if (lastCategory) {
-    loadProductsById(lastCategory); // Cargar la categoría guardada
-} else {
-    // Cargar la categoría predeterminada si no hay una categoría guardada
-    loadProductsById('product-equipos-manipulacion'); // Aseguramos que esta categoría se cargue inicialmente
-}
+// Cargar siempre la categoría predeterminada primero
+loadProductsById('product-equipos-manipulacion');
+
+
 
 // Función de búsqueda de productos
 function searchProducts() {
