@@ -10,7 +10,7 @@
     <title>Iron Tech Solutions</title>
 </head>
 <body>
-    <!-- <script>
+    <script>
         document.addEventListener("contextmenu", event => event.preventDefault());
     </script>
     <script>
@@ -28,7 +28,7 @@
                 event.preventDefault();
             }
         });
-    </script> -->
+    </script>
     <!---------------------------------menu----------------------------------------- -->
     <div class="sidebar">
         <div class="logo-info">
@@ -125,7 +125,12 @@
         </script>
 <!------------------------------------------------ menu de categorias -------------------------------------------------->
 <nav class="navbar">
-    <ul class="categories-menu">
+    <!-- barra de busqueda -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos..." class="search-input">
+        <button onclick="searchProducts()" class="search-button">Buscar</button>
+    </div>
+    <ul class="categories-menu">        
         <li class="category-item">
             <a href="#" data-category-id="Ferretería D&W">Ferretería D&W</a>
             <ul class="submenu">
@@ -196,12 +201,6 @@
             </ul>
         </li>
     </ul>
-
-    <!-- Barra de búsqueda -->
-    <div class="search-container">
-        <input type="text" id="search-input" placeholder="Buscar productos..." class="search-input">
-        <button onclick="searchProducts()" class="search-button">Buscar</button>
-    </div>
 </nav>
 
 <!-- Estilos -->
