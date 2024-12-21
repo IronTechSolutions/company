@@ -1817,3 +1817,28 @@ function searchProducts() {
 searchInput.addEventListener('input', searchProducts);
 
 
+document.querySelectorAll('.category-item > a').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+        event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+        // Obtener el elemento padre (category-item) del enlace
+        const categoryItem = this.parentElement;
+
+        // Alternar la clase 'active' para mostrar u ocultar el submenú
+        const isActive = categoryItem.classList.contains('active');
+
+        // Cerrar todos los demás submenús
+        document.querySelectorAll('.category-item').forEach(function (item) {
+            item.classList.remove('active');
+        });
+
+        // Si no estaba activo, activarlo
+        if (!isActive) {
+            categoryItem.classList.add('active');
+        }
+    });
+});
+
+document.querySelectorAll('.category-item').forEach(function (item) {
+    item.classList.remove('active');
+});
