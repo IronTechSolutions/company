@@ -467,6 +467,17 @@ body {
     transform: scale(1.9); /* Efecto de zoom */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
+/* Efecto hover ajustado para pantallas pequeñas */
+@media (max-width: 600px) {
+    .more-images img {
+        max-width: 100%; /* Hacer que las imágenes ocupen todo el ancho disponible */
+    }
+
+    .more-images img:hover {
+        transform: scale(1.3); /* Efecto de zoom ligeramente más pequeño */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra más suave */
+    }
+}
 
 
 
