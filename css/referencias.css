@@ -220,8 +220,9 @@ body {
 
 /* Estilo para el texto dentro de la sección de presentación */
 .intro-text h1 {
-    font-size: 3rem; /* Tamaño grande para el título */
-    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    font-size: 45px; /* Tamaño grande para el título */
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     opacity: 0; /* Invisible por defecto */
     transform: translateY(-20px); /* Comienza un poco más arriba */
@@ -229,8 +230,7 @@ body {
 }
 
 .intro-text p {
-    font-size: 1.5rem; /* Tamaño del subtítulo */
-    font-family: 'Source Serif 4', serif;
+    font-size: 2.4rem; /* Tamaño del subtítulo */
     opacity: 0; /* Invisible por defecto */
     transform: translateY(20px); /* Comienza un poco más abajo */
     animation: fadeIn 1.5s forwards 0.5s; /* Aparece después del título */
@@ -294,14 +294,6 @@ body {
 .card:hover {
     transform: translateY(-10px); /* Levanta la card cuando se pasa el mouse sobre ella */
 }
-
-/* Estilo de la imagen dentro de la card */
-/* .card__img {
-    width: 100%;
-    height: 150px; /* Altura de la imagen */
-    /*background: #000000; /* Color de fondo por defecto 
-} */
-
 
 /* Estilo del avatar dentro de la card */
 .card__avatar {
