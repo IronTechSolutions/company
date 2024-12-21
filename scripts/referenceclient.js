@@ -12,12 +12,12 @@ arrow.addEventListener('click', () => {
 // Datos de los clientes
 const clientsData = [
     { // cliente 1
-        title: "Espacio disponible",
-        description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
+        title: "Kinlong For a better living",
+        description: "Nos complace colaborar con un gigante en el sector de hardware de construcción y sistemas de fijación, ofreciendo soluciones innovadoras y de alta calidad para proyectos arquitectónicos y de infraestructura a nivel global. Visita su pagina web y descubre cada uno de sus logros.",
         avatarColor: "#000000", // Color del avatar
         buttonText: "Visitar",
-        imageUrl: "", // URL de la imagen de la empresa
-        websiteUrl: "", // URL de la página web del cliente
+        imageUrl: "https://media.licdn.com/dms/image/v2/C560BAQF5_gP2Vj0O2A/company-logo_200_200/company-logo_200_200/0/1630648963657/kinlong_hardware_india_private_limited_official_logo?e=2147483647&v=beta&t=CqNLJHWlj5eWHqA8iMh5RHXUmEVNaZiUhdLX-fq8r44", // URL de la imagen de la empresa
+        websiteUrl: "https://en.kinlong.com/index.html", // URL de la página web del cliente
     },
     { // cliente 2
         title: "Espacio disponible",
@@ -32,7 +32,7 @@ const clientsData = [
         description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
         avatarColor: "#000000", // Color del avatar
         buttonText: "Visitar",
-        imageUrl: "img_main/desarrollo.jpg", // URL de la imagen
+        imageUrl: "", // URL de la imagen
         websiteUrl: "", // URL de la página web
     },
     { // cliente 4
@@ -91,7 +91,39 @@ const clientsData = [
         imageUrl: "", // URL de la imagen
         websiteUrl: "", // URL de la página web
     },
-    { // cliente 10
+    { // cliente 11
+        title: "Espacio disponible",
+        description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
+        avatarColor: "#000000", // Color del avatar
+        buttonText: "Visitar",
+        imageUrl: "", // URL de la imagen
+        websiteUrl: "", // URL de la página web
+    },
+    { // cliente 12
+        title: "Espacio disponible",
+        description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
+        avatarColor: "#000000", // Color del avatar
+        buttonText: "Visitar",
+        imageUrl: "", // URL de la imagen
+        websiteUrl: "", // URL de la página web
+    },
+    { // cliente 13
+        title: "Espacio disponible",
+        description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
+        avatarColor: "#000000", // Color del avatar
+        buttonText: "Visitar",
+        imageUrl: "", // URL de la imagen
+        websiteUrl: "", // URL de la página web
+    },
+    { // cliente 14
+        title: "Espacio disponible",
+        description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
+        avatarColor: "#000000", // Color del avatar
+        buttonText: "Visitar",
+        imageUrl: "", // URL de la imagen
+        websiteUrl: "", // URL de la página web
+    },
+    { // cliente 15
         title: "Espacio disponible",
         description: "Este apartado es exclusivamente para clientes de IronTech Solutions, publicidad a sus páginas.",
         avatarColor: "#000000", // Color del avatar
