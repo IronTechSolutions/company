@@ -5,11 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Serif 4', serif; /* Cambia la fuente aquí */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color:#ffffff;
+    background-color:#f7f0f0;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
