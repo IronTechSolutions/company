@@ -186,7 +186,7 @@ body {
 
 /* -----------------------------------Mensaje de bienvenida--------------------------------*/
 .banner-message {
-    background: #efefef;
+    background: #ffffff;
     backdrop-filter: blur(25px);
     padding: 20px;
     margin-top: 130px;
