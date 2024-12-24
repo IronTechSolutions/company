@@ -708,10 +708,10 @@ const products = [
     },
 
 
-//-------------------------------categoria 2----------------------------------------------------------------
+//-------------------------------sub categoria 2----------------------------------------------------------------
 
 
-    {      //prodcutos con id product-aluminio-dw-hardware 2)
+    {      //prodcutos con id product-aluminio-dw-hardware 2) 
         id: 'product-aluminio-dw-hardware', //1 ready
         title: 'Window handle/Y2CZS55',
         description: 'Suitable for open-in windows,turn-and-tilt windows.',
@@ -723,7 +723,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //2 ready
+        id: 'product-aluminio-dw-hardware', //2 ready 
         title: 'Handle hook lock/Y2LSGS32A',
         description: 'Suitable for Slding doors.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/B4EvVGJgYZX9WZzdT81VDxmoeIaPjINOywIWIiqO.jpg',
@@ -756,7 +756,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //5 ready
+        id: 'product-aluminio-dw-hardware', //5 ready 
         title: 'Fire-resistant locking plate/Y2SK16',
         description: 'Suitable for tutrn-and-tilt windows.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/0tCvb6Sy4lmxOT7YbbNFVFI1eivmUimTl3yMXpUO.jpg',
@@ -767,7 +767,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //6 ready
+        id: 'product-aluminio-dw-hardware', //6 ready 
         title: 'Hinge/Y2CHY08A',
         description: '1.The gap between frame and sash should be 3. 5～5mm； 2.Used for side hung open-in window with Euro-C Groove； 3.The fan clamping block needs to be put into the notch of the fan profice before the fan material assembly; 4.The thickness of the extrusion should be 1 . 2mm～1 . 7mm； 5.Max. load bearing capacity of the pivot hinge is 55kg, which depends on the method of installation , thickness of glass and profile stile.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/peiDNUeOwRwSXRs6RlcJQgvlnwZL77uxlTg5vvqG.jpg',
@@ -778,7 +778,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //7 ready
+        id: 'product-aluminio-dw-hardware', //7 ready 
         title: 'Hinge/Y2MHY01',
         description: '1.The gap between frame and sash should be 4～5mm； 2.Used for side hung open-in door with Euro-C Groove； 3.The clamping block of frame fan need to be put into the notch before the fan frame material assembly; 4.Max. load bearing capacity of the pivothinge is 1 30kg, which depends on the method of installation ,thickness of glass and profile stile.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/R2c4eYnpjvYrj5oKMQybdQ7HHj3im5N3FW4yCvSU.jpg',
@@ -811,7 +811,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //10 ready
+        id: 'product-aluminio-dw-hardware', //10 ready 
         title: 'Hinge/Y2MHY07',
         description: '1.The gap between frame and sash should be 4～5mm； 2.Used for side hung open-in door with Euro-C Groove； 3.Max. load bearing capacity of the pivothinge is 120kg, which depends on the method of installation,thickness of glass and profile stile.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/25pcZeiG0HPsru5bwxwyMXZzGN5zro6M5WO31gm9.jpg',
@@ -822,7 +822,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //11 ready
+        id: 'product-aluminio-dw-hardware', //11 ready 
         title: 'Hinge/Y2MHY08',
         description: '1.The gap between frame and sash should be 4～5mm； 2.Used for side hung open-in window with Euro-C Groove； 3.The fan clamping block needs to be put into the notch of the fan profice before the fan material assembly; 4.Max.load bearing capacity of the pivot hinge is 130kg, which depends on the method of installation , thickness of glass and profile stile.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/R9JHROUUKvMvuGAHXuqVvI87bIBRTThfybNfVyTu.jpg',
@@ -833,7 +833,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //12 ready
+        id: 'product-aluminio-dw-hardware', //12 ready 
         title: 'Hinge/Y2MHY09',
         description: '1.Suitable for side hung doors without channel on the profile 2.Max. load bearing capacity of the pivot hinge is 55kg, which depends on the method of installation and profile stile..',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/IiijlI9Za36ylfK4Qvgl5vABc36iqca4dqP17JFM.jpg',
@@ -844,7 +844,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //13 ready
+        id: 'product-aluminio-dw-hardware', //13 ready 
         title: 'Hinge/Y2MHY10',
         description: '1.The gap between frame and sash should be 4～5mm； 2.Used for side hung open-in door with Euro-C Groove； 3.Max. load bearing capacity of the pivothinge is 90kg, which depends on the method of installation,thickness of glass and profile stile.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/gsEcgahV4gHWFCIWSTutt0IRHJQyFNgMT1O4vXN5.jpg',
@@ -855,7 +855,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //14 ready
+        id: 'product-aluminio-dw-hardware', //14 ready 
         title: 'Aluminum transmission rod/Y2LCDG01-400',
         description: 'Suitable for Casement window.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/GTujUvSj0BgGewFEBE0v2DL1yh3iYEvLEqRI5Lq1.jpg',
@@ -866,7 +866,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //15 ready
+        id: 'product-aluminio-dw-hardware', //15 ready 
         title: 'Aluminum transmission rod/Y2LCDG01-800',
         description: 'Suitable for Casement window.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/QgNYwpZhh6WG4NKrotMe285SYHtGZ8riFbn2doWi.jpg',
@@ -877,7 +877,7 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //16 ready
+        id: 'product-aluminio-dw-hardware', //16 ready 
         title: 'Aluminum transmission rod/Y2LCDG03-400',
         description: 'Suitable for Casement window.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/npVHCJere6eLvUVOJSArcwP73hrnT6OQFMZp4NxC.png',
@@ -987,181 +987,943 @@ const products = [
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //26
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //26 ready
+        title: 'Lock hook/Y2SG011',
+        description: 'Suitable for Sliding woindows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/EKFSCtPfGBpevKEkG5R4dy3VO5KX9qoY1RXJKjtA.jpg',
+        details: 'Product category：Lock hook Main material：Stainless steel.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/XiUCcBDotEzZOLeSaTHwW9zFJ9nKvyja6C25ddhU.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //27
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //27 ready
+        title: 'Gasket 25% adhesive content (EPDM)',
+        description: 'Widely used on doors and windows, providing sealing, insulation, and thermal insulation effects.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/oUY1TTXTwhzUHyb8yhh1lAjFTnYLzE6Qi0jGKxGA.jpg',
+        details: 'Product category：Gasket Main material：EPDM.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/qQFz8DCesSKGeMA9ZeE7MCeiUqA7rfmEvplaCF7D.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //28
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //28 ready
+        title: 'Spinning handle/Y2XZ07A',
+        description: '1.Suitable for Opin-out windows 2.Aspinning hand can only be used to open the fan diagonal construction of not more than 0.7 m.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/NnvmIPToY0oN1mpCmBgvemF26TMIVSBQsil5uTRi.jpg',
+        details: 'Product category:Spinninghandle Main material:Aluminumalloy&Zinc alloy Surface treatment:Powder coated Leftandright.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/6WTpkLY35wHDM7CPpofHL5OQkBBxrMkLC834YTrC.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //29
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //29 ready
+        title: 'Door lock/Y2MS11',
+        description: 'Suitable for casement doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/2hrutYoXkF7CnFO92c7kmLnCbFLHZK6bFv1RylLl.jpg',
+        details: 'Product category:Door lock Main material:Stainless steel,carbon steel.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/yz3VldS0c78xWBb8hJHhCJIAV7rDuownt3RbHg6P.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //30
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //30 ready
+        title: 'Door lock/Y2MS12',
+        description: 'Suitable for casement doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/GEm71Hsz6AeslmO7l3pe7eMdoD425FKVESHk437o.jpg',
+        details: 'Product category:Door lock Main material:Satinless steel & Carbon alloy.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/gW7nyiao83idClVssabCoH1BtU2co1bpD9C3cHeH.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //31
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //31 ready
+        title: 'Sliding lock catch /Y2TLSK07',
+        description: 'Suitable for Sliding windows,Sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/HPJ1HX8KLG20k30H2zXu2SxdphvTviBLCf6JT9tu.jpg',
+        details: 'Product category:Sliding lock catch Main material:Satinless steel.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/fRAYObB9rSMqUsDZD1DFaYNLLnxocKg4kdfHkSHB.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //32
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //32 ready
+        title: 'Hinge/Y2CHY01A',
+        description: '1.The gap between frame and sash should be 3.5～5mm； 2.Used for side hung open-in window with Euro-C Groove； 3.The thickness of the extrusion shouldbe 1.2mm～1.7mm； 4.A groove bottom fan profile slot, Y2CHY08A is remmended； 4.Max.load bearing capacity of the pivot hinge is 55kg, which depends on the method of installation , thickness of glass and profile stile.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/2UVtVgR1JxwJnnlZPRf3ZUNe6RTliaxJMzm3g2Fp.jpg',
+        details: 'Product category:Hinge Main material:Alumimum alloy Surface treatment:Powder coated.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/dyhkXaNzu7toOxd7traKxOA9VXR4RMsWBzpd6FCR.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //33
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //33 ready
+        title: 'Look hook/Y2TLS01-05A',
+        description: 'Suitable for Sliding woindows，Sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/LLzAIQTsgYXG5mPpR7Xn9eLWLUNFy1HCSiVpUJZL.png',
+        details: 'Product category：Lock hook Main material：Zinc alloy.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/T3Mzz2iApZyIJQF1tiiKpUaVe1Cbaim0wzVDrvgW.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //34
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //34 ready
+        title: 'Look hook/Y2TLS01-06A',
+        description: 'Suitable for Sliding woindows，Sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/IiaAQ7pzGxAFvx5NW4JUHBfLaj3NWGikHhpPevYO.png',
+        details: 'Product category：Lock hook Main material：Zinc alloy.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/tJtzX4l7XvFzSDazhuR2yBHyTrkjZzMvYEBP9Sak.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //35
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //35 ready
+        title: 'Aluminum transmission rod/Y2LCDG01',
+        description: 'Suitable for Casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qzuOPAHMx0Zoh3CloBWItIvUkcWp2HyFBiwqe9ms.jpg',
+        details: 'Product category：Aluminum transmission rod Main material：Aluminum profile.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/uLc7B4xA0T6tgUmXF8pLLQ8a9LJ67i3oeG6kXgG0.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //36
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //36 ready
+        title: 'Aluminum transmission rod/Y2LCDG03',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/SMCBR2hwtB9P0hWJUdzasuAseV5fzgUIUc8fuSYk.png',
+        details: 'Product category:Transmission Rod Main material:Aluminum profile.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/JcadbjADf1DmQftyHlGKjmIchedNH1Z7Qf36GoHH.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //37
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //37 ready
+        title: 'Aluminum transmission rod/Y2LCDG04',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/GR8ekAdhE6XNUVbWtSJzaP4nxP7z9q7NZS0nrnRK.png',
+        details: 'Product category:Transmission Rod Main material:Aluminum profile.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/pKvRn6tBj08eaIoy4NwmrflK4O379RYSMshp20Hk.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //38
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //38 ready
+        title: 'Aluminum transmission rod/Y2LCDG10',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/yKQ4C5VMwINw8ZroVkyKjPbNjnS4gLEcjroMp79q.jpg',
+        details: 'Product category:Transmission Rod Main material:Aluminum profile.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/o8fQkg1V6lLWI66hRK90TPig0LrHbLMghrQqtmf3.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //38
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //39 ready
+        title: 'Screw/Y2M5XL',
+        description: 'Delivery Supplement Series.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Pa693esGuWr9AovLH1fPEUmPrWKBGRHLTGxnhTZ4.jpg',
+        details: 'Product category:Screw.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/FyyIFdKvVjIOPi3iRmYvARHopKmkzFjpcn3tHXLJ.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //39
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //40 ready
+        title: 'Square steel/Y2FG01-L',
+        description: 'Suitable for Square steel handle.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/IaExRTNFM44uAZPQUQOndD81fCVXOnwjpzXBkVRN.jpg',
+        details: 'Product category：Square steel/.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/rW1Q1pTPxkTB8CQU8bL1hz5MtcoLBOD9YEj92YW1.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
     {
-        id: 'product-aluminio-dw-hardware', //40
-        title: '',
-        description: '.',
-        image: '',
-        details: '.',
+        id: 'product-aluminio-dw-hardware', //41 ready
+        title: 'Crescent lock/Y2YYS001',
+        description: 'Suitable for sliding windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/l7J2HyEQUgJ0ucbhtJh84GH0l09C3HnWQIX1hQVt.png',
+        details: 'Product category:Crescent Main material:Alumimum alloy Surface treatment:Powder coated.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ZpXRjSXMthsIYFmoHP8UOgtCoCOHE4QcMdptKt80.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
+    {
+        id: 'product-aluminio-dw-hardware', //42 ready
+        title: 'Crescent lock/Y2YYS011A',
+        description: 'Suitable for sliding windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/0o3dxO9E039egZyrVfof1mdRzQmqsV3QYG6d6jcj.png',
+        details: 'Product category:Crescent Main material:Alumimum alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/DCEeEA6STkJpenwMx4l4mJlJGUvSa1p11VcoorJT.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //43 ready
+        title: 'Crescent lock/Y2YYS013',
+        description: 'Suitable for sliding windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/fxxPnUOCtseDjQWIZmqGi9DYb5iCQC0oDGDMg1Xl.png',
+        details: 'Product category:Crescent Main material:Alumimum alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/1ZGxhQJGHfk8Trizy3Hm9bjzZdRnIZjyobt6Vcpx.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //44 ready
+        title: 'Crescent lock/Y2YYS015',
+        description: 'Suitable for sliding windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1ODSTePJNDemswGRiUUZTpRC9PRzd6N32vD1E09H.png',
+        details: 'Product category:Crescent Main material:Alumimum alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/k9bjVNcmiiUElBYLpfm8mhl2oDaxlukQTHlmNViH.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //45 ready
+        title: 'Anti-drop device/Y2FZQ11',
+        description: 'Suitable for Casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/97gmrAtfKl9lGJuw8iq3k5zSbD1xRiumaRtR5UMt.jpg',
+        details: 'Product category：Anti-drop device.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/UsSumYJk8nqz1EWExEuiFMSNG99ocYBsg7itFEZ3.png',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //46 ready
+        title: 'Sliding lock hook/Y2TLSK08',
+        description: 'Suitable for sliding windows，sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/jUqFFNUPZuy19af7Wae7xxe3DwETCYbRc7iGKysh.png',
+        details: 'Product category:Sliding lock hook Main material:Stainless steel.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/fk84FTrD5YbjBUOsjIaMFxXlBZxXBqXDY294Y26Q.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //47 ready
+        title: 'Side transmission rod/Y2BCDG04',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/dKd8GGfKJOfrRcT11dSRpVsndRnfbpZsJ1DwuYAS.png',
+        details: 'Product category:Side transmission rod Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/KYB98g7LMrASL4OLFi5IIhqBJ6a5jYwoiDzLBjcd.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //48 ready
+        title: 'Cushion block/Y2XZDK01',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ApLZcYOJw4paiqGJOBRw29vQW2WF52KSU7bnvQjd.png',
+        details: 'Product category: Shim Main material: Nylon.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ND9wio7yB1cEGoys45QWGqn7C3eaFhCeUVovGQ1s.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //49 ready
+        title: 'Shim/Y2DK04',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/peezFyS9qTRoMRvJwyl91rg1q87IEGTKYpWWkrx9.png',
+        details: 'Product category:Shim Main material:Nylon.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/4B0Qt95hoPT17u8Ue7i0TZNwuF0797KT87BpVops.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //50 ready
+        title: 'Hinge/Y2CHY11',
+        description: 'Suitable for Casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/eF4ayVoULScnRsas0uLfHAH6Eqsisjos4X2zEjh2.png',
+        details: 'Product category：Hinge Main material：Aluminum alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/VZcRc7F0iYHMC5YBsUuelygH6b4mvb0lfr2LnwGC.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //51 ready
+        title: 'Over turn support/Y2FZZC03',
+        description: 'Suitable for turn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/TnPa5vNjdFiLzHZBah5AdLB5Poa3IlEpoD3i5y05.png',
+        details: 'Product category:Overturn Supporter Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/fsrZKgmH0E2MUxOFeIq7AcSk6jeXbX8xsVIJSBZR.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //52 ready
+        title: 'Latch/Y2MCX250',
+        description: 'Suitable for casement doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/fZHuccEUdKTAMBDK3bcBq1xuClV9ISIk00NpTKqH.jpg',
+        details: 'Product category:Door Socket Main material:Zinc alloy & Aluminum alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/MUfltWYEaDQocRGff40ZuPVjhkp9zyTCcuHQ3zX4.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //53 ready
+        title: 'Fire-resistant Locking plate/Y2SK15A',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/SEci004DW5ei92NBnjJMMqcQ7gwHQvKykKVyhxs4.png',
+        details: 'Product category:Locking Plate Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/zLvx35s6L6AIsWsNkIEjhayi33Lb7zic2CJgJJ2D.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //54 ready
+        title: 'Aluminum transmission rod/Y2LCDG11-1200',
+        description: 'Suitable for Casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/CVXVVQgB3FhNro5vJTCmJVoWCPUDjPlEujgcRENw.jpg',
+        details: 'Product category：Aluminum transmission rod Main material：Aluminum profile.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/CV4Ra5GT27cz5hfpjn50l0I2gKgEpqm3RBJKudf3.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //55 ready
+        title: 'Window handle/Y2ZSW00640',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/QS0aETyF8UwcgTOq4Fp3xDPGM90eNG5GIAGph62a.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/m4RGubctQVI34tLgCKX51PTOVFVRkVnnmgjx0IIF.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //56 ready
+        title: 'Transmission rod /Y2LCDG11',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/IVDk1xukrA3AX4SXTorhV8XorVi7Q8mUipgQK00l.jpg',
+        details: 'Product category:Transmission rod Main material:Aluminum profile.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/235doy9EZuQfdA7rwFlnpTPfR38nWRCdJpkM7BgP.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //57 ready
+        title: 'Window handle/Y2ZSW00240',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/gYQwoXrzlDxCxpWxTizV4rPD0gC17BAQS1sV2dUq.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/F6Am7zwLhN8BENA0WhwhSOpj0QPqhVycr6F5wcks.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //58 ready
+        title: 'Window handle/Y2CZS315A',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/7edBCuq9aiq6Av8xvHBJRYDdpyJFlR4ywdNxYkGi.jpg',
+        details: 'Product category:Window handle Main material:Alumimum alloy&Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/EcAHDLf78GgNQG71LO7nMIWqS7yeZGFb6Bta7WFG.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //59 ready
+        title: 'Window handle/Y2CZS81',
+        description: 'Suitable for Open-in windows,turn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/2SqEFhZqBwyv0vN8tCX60rxCdGdmuPHvsxazlfK5.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy&Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Jn5ttHcq989jMKp5mmSkNKYBYRspuiSrfOmyUuxa.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //60 ready
+        title: 'Window handle/Y2CZS82',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/JO9H07PkafiibmWIfmsWr9iBwPDAikOUfW4UCohN.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy&Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/a2pwtnDHRZGnNfatsRQzB2JSR0HWY6h2lVNBb4wL.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //61 ready
+        title: 'Window handle/Y2CZS363',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qYTWAHukKLvM8AQS8WDBZuN9tiEc995wTHhybonQ.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy&Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/BBayr4M999pGYwAY8yP8D5L14LNB7YoeX7FtypOq.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //62 ready
+        title: 'Window handle/Y2CZS316',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/pwIl5wxAp69NgXI1YbaJjDYMUjiooRU2uZhykCJq.png',
+        details: 'Product category:Window handle Main material:Alumimum alloy&Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/qoqhySKdouZeshoWx1oQg8b6WON9U56SrkxVFBMM.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //63 ready
+        title: 'Hinge/Y2MHY11',
+        description: 'Suitable for casement doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/XDq5V6xyiDODTxP2iPp7PLWDLYblSwm6PCWmxTZK.png',
+        details: 'Product category:Hinge Main material:Alumimum alloy Surface treatment: Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/76RE5voUmlVQFYvEuDDzic4696FeM2XQL4BbhBdX.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //64 ready
+        title: 'Automatic lock/Y2TLS04',
+        description: 'Suitable for Sliding windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/lK5S2MPaUTCkdD8Hw2VmW8NEPJjJ0x0wRKBIX9x6.png',
+        details: 'Product category:Automatic lock Main material: Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/G19qFCbeGpUVQiWdOLxuXS7OkFuDzBVYxlIh7WuX.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //65 ready
+        title: 'Double-sided sliding lock/Y2TLS04S',
+        description: 'Suitable for Sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/unOFrlSSYFZV7tyUx6GOvvPtIF0ehUvLVCtY3RTv.png',
+        details: 'Product category:Double-sided sliding lock Main material:Alumimum alloy & Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/qTmyseSnVsU9Fsd5rvOMShsJEVzoUTEHlZwcPnU4.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //66 ready
+        title: 'Sliding lock with konb /Y2TLS04LS',
+        description: 'Suitable for Sliding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/RxluXhXRy80tl44gcHROqHrROLXnEneMmSXjaJPt.png',
+        details: 'Product category:Sliding lock with konb Main material: Zinc alloy Surface treatment:Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ilSWyObMwuXPU3SOr42PJvXYWRKu2unrPkkt1XWE.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //67 ready
+        title: 'Pull rod/Y2LG03',
+        description: 'Suitable for turn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/BFtu9ecRIXC4W4tA0Y5fKTQHnQcIeHFBcyYGrbO4.jpg',
+        details: 'Product category:Pull rod Main material:Stainless steel.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/p1p7qPNKmrBFW9DVGeDxxZPZaqxwFxrD0iMZe95x.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //68 ready
+        title: 'Transmission Rod /Y2LG04',
+        description: 'Suitable for tutrn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/MbRi0JUsbEMJENvZA4wISsKuOp4BQ1ENm7sAvS0c.jpg',
+        details: 'Product category:Transmission Rod Main material:Satinless steel.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/768B7HWAaDYBRurl3Yii1zJzmLveLMYiTvf1svha.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //69 ready
+        title: 'Corner device/Y2ZJQ04',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/YWnhC4FnVuetkz5R0JUTBqgwzwn6qkwcDURmQE5h.png',
+        details: 'Product category:Coner Device Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/JuiaZ1jwpHwvLq8AtGu6JiwiKIhJqur2wiceB5dk.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //70 ready
+        title: 'Cornerdevice/Y2ZJQ05',
+        description: 'Suitable for tutrn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/PaWy6ipDXPIhPiHXFgYHUXFMHP3sRFzX6WAvlDvU.jpg',
+        details: 'Product category:Corner Device Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/R2xtMJdVxnx3lE9UyafVR6lrWe3VfZEEbHidapay.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //71 ready
+        title: 'Hidden hinge /Y2YPXSHYR01',
+        description: 'Suitable for tutrn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/HjpvhojMLMwRhCmHtQdRrUfFTzzq0U7vj1Z5sSm8.jpg',
+        details: 'Product category:Stealth Hinge Main material:Satinless steel 304.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/shHRisV9KMdYDKNAP6TABM2dp0XV9kWKl9K3aEM1.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //72 ready
+        title: 'Concealed hinge/Y2YPXXHYR01',
+        description: '1.It is suitable for the inner flat hanging window with standard C notch profile. 2.The maximum bearing capacity of hinge is 90kg,which is related to hinge installation, profile and glass thickness. 3.The hinge should be used together with Y2YPXXHYR\L01A. 4.Three-dimensional adjustable hinge.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1uAXZUfp9Zcd1mTL2aTkTV5IOB7OjYNHdMsDVsQi.png',
+        details: 'Product category:Concealed hinge Main material:Stainless steel 304.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Yp6aShHSPBQWS687Lzpzla4q8Qj3u50WnLA5lhsg.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //73 ready
+        title: 'Supporting plate/Y2ZCK06',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/sTAayopv2M5xgGOiyOZaJZZqSCAFQ4yige9wwdsn.jpg',
+        details: 'Product category:Supporting plate Main material:Zinc alloy.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/r5xNgpVT9iy63Girix3FhKDXxAgmflHX0HodNIHW.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //74 ready
+        title: 'Anti-drop device/Y2FZQ15',
+        description: 'Suitable for casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/xSzlHF3YVybO2UqzLX6k1StOMQZjOJvbMOhtxmnM.jpg',
+        details: 'Product category:Anti-drop device Main material:Satinless steel 304.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/UjSlJP8yf3w7lWCY5QO8aiqc1crwgouDCq0du4YL.png',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //75 ready
+        title: 'Hidden hinge/Y2YPXXHYL01',
+        description: 'Suitable for tutrn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/mQRMEYmMGzHLZh9tgp9HgnmtsjhqcpNDJattYe1M.png',
+        details: 'Product category:Stealth Hinge Main material:Satinless steel 304.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/RJvM1QvV8UOlhjifC70rqplI9MrCtQwPHNShRXda.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //76 ready
+        title: 'Hidden hinge/Y2YPXSHYL01',
+        description: 'Suitable for tutrn-and-tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/crbZcnmnaFyvd0t22EapZG2S26A5fGXFg5j8ZNKW.jpg',
+        details: 'Product category:Stealth Hinge Main material:Satinless steel 304.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ad8ndYrD1m0wvyhRNev9PlwXnJBY6njRPpIGDH2t.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //77 ready
+        title: 'Locking plate/B04A',
+        description: 'Suitable for Casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/uiLKEjKKT7tjGyvvfpzDXTEQ1nlmTL5YU9knookx.jpg',
+        details: 'Product category：Locking plate Main material：Stainless steel Surface treatment：Natural.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/wyVUuhJJN9oTNBhcSxDdQhlSr14aomJTboe6wdrN.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //78 ready
+        title: 'Handle/K318',
+        description: 'Suitable for Casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/aHapmonU7MxhqbvvXRtPPsMAaF7psC6VfmsGzjgH.jpg',
+        details: 'Product category：Handle Main material：Aluminum alloy Surface treatment：Powder coated.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/kqlH8TrkHJNYTuwEMWevfgc7je0cUoiyBLqVdeWJ.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //79 ready
+        title: 'Right end/H52-18R',
+        description: 'Suitable for TTL300 Series Lifting & Sliding Door.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/8EixRtXJPytEJaohxiL4j7GdyVrBlKfSl734FKMD.jpg',
+        details: 'Product category：Right end Main material：Plastic Surface treatment：Black.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/vn4HqO1al4XWXiCosHwGzO79GQYdUz4p9lnE5uzX.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //80 ready
+        title: 'Right cover/H52-15R',
+        description: 'Suitable for TTL300 Series Lifting & Sliding Door.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/RsOx2mNAchSNnUkqWnu9fNHH3iW1oOu1MeWAkOT3.jpg',
+        details: 'Product category：Right cover Main material：Plastic Surface treatment：Black.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/gCaP2cQI6xyaxeZOvOip6EGKLc63ZB7ikDLKEuME.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //81 ready
+        title: 'Hinge/LYHE11-L',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/V5pkqsFUk45unZwUtCDG9LHvHVfQxQq2WYtZ3t17.jpg',
+        details: 'Product category：Hinge Main material：Zinc alloy+Stainless steel Surface treatment：Natural.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/qQ4xzxEzCDTuKru4X8YF0IXtTmVAVkQ4AIcG17QD.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //82 ready
+        title: 'Hinge/LYHE12-L',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/lJ1xky1SymgvBfgompNS9kYfGlfWRVlEGRLovIrV.jpg',
+        details: 'Product category：Hinge Main material：Aluminum profile+Stainless steel Surface treatment：Natural.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/7IgT483LrXkkcdvwo8Oqw9xjuyRWLMHlqQtNpPi0.png',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //83 ready
+        title: 'Limitter/LPX14A-8(LPX14A-203)',
+        description: 'Suitable for Casement windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/9FwLkNgBZqhubPilVesVuo6JS31UCKUdkoSU0b0O.jpg',
+        details: 'Product category：Limitter Main material：Stainless steel Surface treatment：Natural.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/njs0r80Af30dH2pnqQhT6vNgGcNYpBl6psTA3jf0.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //84 ready
+        title: 'Turn-and-Tilt Window Multi-point Lock on 4 sides 1-1、NPD200 Series',
+        description: 'Suitable for Turn and Tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/z4snuHmfJaXzHvepNRxcCRsoCWmThqYtYGKn0Yhf.jpg',
+        details: 'Product category：Turn-and-Tilt window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/tEeyxXhe5I08mHjWBXfvrmTngeY9OWz5mq1HGYBU.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //85 ready
+        title: 'Open-in side hung window with multi-point lock on single side 2-1、NP100 Series',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qV2He82gy8apvi2ZN1P0J8gC0pQhPQfwZeTFxj3T.png',
+        details: 'Product category：Open-in window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/h9PJZ4oVT1PseWs7qSN7ohAOgkAECYEZF8zX4V3l.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //86 ready
+        title: 'Open-in side hung window with multi-point lock on single side 2-3、NP300 Series',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/9J1zKyyjQQgepv7xdKQSxcKWleib0AXLVl0F52wl.jpg',
+        details: 'Product category：Open-in window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/To31vhhq5dwAkv6Uvgtz4UjbxOm9mJ7dljWs0a8z.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //87 ready
+        title: 'Open-in side hung window with multi-point lock on single side 2-4、NP400 Series',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/S7WlZnSH5dMoFLMTQWfUwBuJynQ1nHUoz7LDWIJ8.jpg',
+        details: 'Product category：Open-in window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/MB5Z3gfQaXzoZ47UoNiNG08QqQUPaRY7WQPBZoY0.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //88 ready
+        title: 'Open-in bidirection side hung window with multi-point lock on single side 2-5、NP500 Series',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/8p8KtVLVRITY5It6uyTPfcvG2Phjr1s5SnLxN2Pz.jpg',
+        details: 'Product category：Open-in window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ZSWRZyHzu46wrmzWsI9tKZdwOAGGjSvUou9CjUuw.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //89 ready
+        title: 'Open-in bidirection side hung window with multi-point lock on single side 2-7、NP700 Series',
+        description: 'Suitable for Open-in windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1jyhw7r6o5NKaTLplvWbeCVTLlFc2XrpRM8c7rxW.jpg',
+        details: 'Product category：Open-in window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/UQTxjhfy0fpKij9VajlWPos8t0wG5wb0XP3bAwh9.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //90 ready
+        title: 'Open-in micro-ventilation side hung window with multi-point lock on single side 2-8、NP800 Series',
+        description: 'Suitable for Open-in micro-ventilation side hung window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1Tl0L3HhoNK2hib0aUUqcEZ6ROEdTzbSHMlsbZ2i.jpg',
+        details: 'Product category：Open-in micro-ventilation side hung window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/loKXNUcBV1Mqdok8Zkq95liDrLMMX2YmjQsyVi6Z.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //91 ready 
+        title: 'Unilateral open-out&side hung window with C-groove 3-3、WK300 Series',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/8KD3toX7ctaNKwg5LYwYLxPyYCOQui6A6wXMvzU1.jpg',
+        details: 'Product category：Open-out window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/NoLq2G1kz1IP3jWvjtGOfLaa4QsJJqIErYcmNOPo.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //92 ready
+        title: 'Open-out&side hung window with no groove 3-4、WK400 Series',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/T7shVTQReuUlhmt0oXproKjAxeyIHIdT6vbW8phD.jpg',
+        details: 'Product category：Open-out window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/RBkie3vxpJokjt9E2KHR3QwjyE62tIZm4l4RUZ65.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //93 ready
+        title: 'open-out&side hung window with no groove3-5、WK500 Series',
+        description: 'Suitable for Open-out windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/WB2agYF8ZdbH5frOzGDLgnBdI8SKvJQwx3QQypI9.jpg',
+        details: 'Product category：Open-out window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/FmK7OR0nOlN3GBmstRNSINUi5hnTLZkBXGS8Hqxp.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //94 ready
+        title: 'Top-hung window 4-1、MQ100 Series',
+        description: 'Suitable for Top-Hung windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/JAZuIBcvelelRJlaTelh9ynyEr2nqijLMQTtwTPT.jpg',
+        details: 'Product category：Top-hung window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/092TkWNjdW4L4Id0CA4FhAsiUCyAx54dRW6tmOoR.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //95 ready
+        title: 'Top-hung window 4-2、MQ200 Series',
+        description: 'Suitable for Top-Hung windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/gyJD7lSTcm19gMOKTd30CkwrkH06vjVONanULdKl.jpg',
+        details: 'Product category：Top-hung window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Zccc6Vo1snUyc0Q2EVZp69HCdJQdVFXtU7Mpaq2P.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //96 ready
+        title: 'Top-hung window 4-3、MQ310 Series',
+        description: 'Suitable for Top-Hung windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/LsuoCgHmAHPB3yIiVzJfXm46Jwx9xfQYoWv8Degr.jpg',
+        details: 'Product category：Top-hung window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/bgF7CZSWMAXx0l0mRUOn7RRcM2xTE08X5S5CzEfc.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //97 ready
+        title: 'Sliding window series5-1、TL100 Series',
+        description: 'Suitable for Sliding window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/JM7OOkiXVouFINE03wtWZV00Ace4hOwLX13U2wSt.jpg',
+        details: 'Product category：Sliding window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/sBdH2Eq2UJQXr7gPcMlhE0qDF5BoggPhjQ8VhuAy.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //98 ready
+        title: 'Sliding door series5-3、TLM100 Series',
+        description: 'Suitable for Sliding door.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qr1AC62JUsLyzyVIr6G6UEeliyeVV5QrVMom6OLy.jpg',
+        details: 'Product category：Sliding door.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/OeteyJd1UJD234idrKKqdfdSNfZe0tkWQ2fhQ4W3.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //99 ready
+        title: 'Side hung door without groove 6-4、PM410 Series',
+        description: 'Suitable for Casement doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/9ichYpO8DLMqVHVuwZZaYlQvALJS9BSlamZg2wyi.jpg',
+        details: 'Product category：Side hung door.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/1Tm62Owq584jvUvcCi3pMsVzaitKaZlYyawVd0Hr.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //100 ready
+        title: 'Heat-insulation bridge-cut-off Double door 6-6、PM600 Series',
+        description: 'Suitable for Double doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/m9dZeBBVfs9VnVea82m7fnaWhECavVWP8Zri8OI5.jpg',
+        details: 'Product category：Double door.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/AyIqnJovZNsaa0Amls66eG2pUXwoDztC9fJp6ikn.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //101 ready
+        title: 'Sliding door Series5-4、TLM200 Series',
+        description: 'Suitable for Slding doors.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/YTswJSnyEtIaueS5nyrpx05GBqjdgeb8yNgKRArQ.jpg',
+        details: 'Product category：Sliding door.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/S0NtjxacZhGWZWToBkyRKgXXHTjViC170BhtVs7p.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //102 ready
+        title: 'Concealed Turn-and-Tilt Window with Multi-Point Lock on Multi side 1-2、NPD300 Series',
+        description: 'Suitable for Turn and Tilt windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/QC4O8Diz7JX95S7Q4mP4Pk7sRputlJWp4qQmY0Gh.jpg',
+        details: 'Product category：Turn-and-Tilt window.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/eodSG7a2yS1fCuHJKdtzE3a9Lszlm6fB6o5iMOkE.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //103 ready
+        title: 'Bottom pivot hinge/Y2PXXHY02',
+        description: '1.The gap between frame and sash should be3.5～5mm; 2.Work with pivot hinge Y2PSXHY02B for Turn and Tilt window; 3.Maximum load bearing capacity of the pivot hinge is 90kg,which depends on the method of installation and profile style.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/D70TSMt63m4QYh5fqkTPkvp4rr9zrWX0yHVHP4aE.jpg',
+        details: 'Product category:Bottom hinge Main material:Alumimum alloy Surface treatment:Powder coated Divide left and right.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/MylCGQNUsKWGrIzZbMjG3EHAgplGIuo8eyqxWrzo.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //104 ready
+        title: 'WK100 series open-out&side hung window with C-groove',
+        description: 'There are a variety of friction stay to choose from.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/gZqF6BNkpguImQbIc4FgfGdRalI0t2jBycCWFuoP.jpg',
+        details: 'Different braces have different loads.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/rGPeulDReaP7OMVwv7MO1EFCbjILZBsj373ZS81F.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //105 ready
+        title: 'PM500 series biparting with C-groove',
+        description: 'There are a variety of hinge to choose from.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/P0b0w4qis4g8ozadO7YzSkUxQwZLXufYvybjgnrz.jpg',
+        details: 'Maximum load: 130kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Pu6l0Z7Z9motQeAvTOKATHkWfj8CDSMvqUSTXMJX.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //106 ready
+        title: 'PM200 series side hung door with C-groove',
+        description: 'There are a variety of hinge to choose from.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/YmX7UXjGtpqOOjMU1OwKKxl4E3ur2tkfy9giFZMP.jpg',
+        details: 'Maximum load: 130kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/shxrSBxmIJ9rBh5Chtn9YLdf6F2wQZJ9Loz0BLlp.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //107 ready
+        title: 'PM100 series side hung door with C-groove',
+        description: 'There are a variety of hinge to choose from.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Z11SBRwDEz8V3PWL0Ui45FFflNMNcGP7GdBzat9r.jpg',
+        details: 'Maximum load: 130kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Nehvquky4myMOUL6htWtVXKHpmThfuzUKLlRMonM.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //108 ready
+        title: 'TLM300 Series Configuration 3 Sliding door',
+        description: 'Application scenario:suitable for 70, 72 and 80 series insulating sliding profile..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/W2aWZx34VUkfB7gWxydqwcZTYAp7Cboq5lKwUZFZ.jpg',
+        details: '1. The handle controls the door to open, which is easy to operate 2. Does not occupy indoor space.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/xBvekIZi2NmzC0neksVvyXTSKUz00wbxnQovgj51.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //109
+        title: 'PM330 Series Single Door With C-groove Profile',
+        description: 'Application scenario:applicable to the standard european C-Groove profiles in the market.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/JhePVUFxMi2MGM8yko4tLnvEgVnTh7jugF9ulsmT.jpg',
+        details: '1. A variety of hinges are available.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/BTkqowyoOXfcgShbbmhqfkkksMKEP1DtEpt5h9Rk.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+    {
+        id: 'product-aluminio-dw-hardware', //110
+        title: 'TWD100 series High airtight push-pull side pressure door',
+        description: 'Application scenario: suitable for high-rise buildings, Luxurycommunities, villas,apartments, etc..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/VsWXY7af5nKT2foBARwJZa35eTfBiWaD9zqdIRv0.jpg',
+        details: '1. Single-point control, anti-misoperation, safe and convenient. 2. Multi-point locking, buffer design, superior performance..',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/FYyT0XJgxypoA71QkUx8o9mgpoqf8PyXarzUTg5o.jpg',
+            //'https://via.placeholder.com/300x200'
+        ]
+    },
+
+
+
 
 
 
@@ -1689,7 +2451,7 @@ function loadProductsById(productId) {
             <img src="${product.image}" alt="${product.title}" class="product-image">
             <h3>${product.title}</h3>
             <p class="product-description">${truncated}</p>
-            ${truncated !== full ? '<a href="#" class="more-info">Ver más...</a>' : ''}
+            ${truncated !== full ? '<a href="#" class="more-info">See more...</a>' : ''}
         `;
         card.setAttribute('data-product-id', product.id);
         card.onclick = () => showProductDetails(product);
