@@ -316,6 +316,24 @@ body {
     color: #666;
 }
 
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) { /* Smartphones pequeños */
+    .product-card {
+        width: calc(50% - 10px); /* 50% del contenedor con espacio */
+    }
+}
+
+@media (max-width: 600px) { /* Celulares medianos */
+    .product-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) { /* Tablets o celulares grandes */
+    .product-card {
+        width: calc(50% - 10px);
+    }
+}
 
 /* botones de siguiente y atras */
 /* .pagination-controls {
