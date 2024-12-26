@@ -2322,7 +2322,7 @@ const products = [
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Gdm7sa690WgtXEBBmCW49opYQnWdyDY7aTDzAVOV.jpg',
         details: 'Category: Equipment Machinery Product name: self-walking shear fork aerial working platform Color: Orange red Product specification: 2475X1150X1836MM Series: aerial work platform Product model: JZL-GTJZ-6.',
         moreImages: [
-            '',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/WvwvWNDhrrqodTMxIxibFfDxwmRdoR7JZ6JlxaB9.jpg',
             //'https://via.placeholder.com/300x200'
         ]
     },
