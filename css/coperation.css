@@ -15,8 +15,56 @@ body {
     background-attachment: fixed;
 }
 
+/* Contenedor del traductor */
+#google_translate_element {
+    position: fixed; /* Fijo en la pantalla */
+    top: 10px; /* Se coloca un poco abajo del borde superior */
+    right: 10px; /* Se coloca a la derecha de la pantalla */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle más visibilidad */
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    #google_translate_element {
+        display: none !important;
+    }
+}
+
+/* Modificar la barra de traducción */
+.goog-te-banner-frame {
+    background-color: transparent !important; /* Hace que la barra sea transparente */
+    border: none !important; /* Elimina los bordes */
+    box-shadow: none !important; /* Elimina la sombra */
+    height: 40px !important; /* Reduce la altura de la barra */
+    line-height: 40px !important; /* Alinea el texto verticalmente en el centro */
+}
+
+/* Si quieres darle un color suave a la barra */
+.goog-te-banner-frame {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Fondo oscuro semi-transparente */
+    color: white !important; /* Texto blanco */
+}
+
+/* Modificar el tamaño y posición de los botones del traductor */
+.goog-te-gadget-simple {
+    font-size: 14px !important; /* Reducir el tamaño de la fuente de los botones */
+    height: 30px !important; /* Ajusta la altura del botón */
+}
+
+/* Ocultar el icono del gadget */
+.goog-te-gadget-simple .goog-te-gadget-icon {
+    display: none;
+}
+
+
+
 /* Estilos del menú superior */
 .sidebar {
+    margin-top: 25px;
     position: fixed;
     align-items: center;
     top: 0;
@@ -27,6 +75,12 @@ body {
     display: flex;
     flex-direction: column;
     font-size: bold;
+}
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 600px) {
+    .sidebar {
+        margin-top: 0; /* Elimina el margin-top en pantallas pequeñas */
+    }
 }
 /* Logo y menú */
 .logo-info {
@@ -287,7 +341,7 @@ body {
 }
 
 .product-card { /* Usar 'product-card' como la clase de la tarjeta de producto */
-    width: 250px;
+    width: 190px;
     background-color: white;
     border: solid 1px #00000033;
     border-radius: 8px;
@@ -297,13 +351,14 @@ body {
 }
 
 .product-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .product-card img {
     width: 100%;
     object-fit: cover;
+    border: solid 1px #00000033;
 }
 
 
@@ -409,26 +464,23 @@ body {
 
 .product-details p {
     margin-bottom: 30px;
-    font-size: 1.2rem;
-    color: #201f1f;
+    font-size: 1.1rem;
+    color: #0e0202;
     max-width: 700px;
     line-height: 1.6;
     font-family: 'Verdana', sans-serif;
 }
 
-.product-details .product-image {
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
-}
 
 .product-details .product-image img {
     width: 100%;
     max-width: 400px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 2, 3, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+    margin-bottom: 4px;
 }
+
 .product-details .product-image img:hover{
     transform: scale(1.2);
 }
@@ -445,14 +497,16 @@ body {
 }
 
 #back-btn {
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    border:  solid 1px #ffffff;
+    color: #fffcfc;
     margin-top: 2px;
 }
 
 #back-btn:hover {
-    background-color: #d93838;
-    transform: scale(1.05);
+    background-color: #2b2828;
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 #back-btn {
@@ -469,8 +523,8 @@ body {
 }
 
 #more-info-btn:hover {
-    background-color: #555;
-    transform: scale(1.05);
+    background-color: #161616;
+    transform: scale(1.01);
 }
 
 #order-btn {
@@ -481,7 +535,7 @@ body {
 
 #order-btn:hover {
     background-color: #1e7a33;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /* Diseño más limpio y centrado para el contenido */
@@ -521,7 +575,7 @@ body {
 /* Estilos para las imágenes adicionales */
 .more-images img {
     width: 100%;
-    max-width: 400px; /* Aumentar el tamaño máximo de las imágenes */
+    max-width: 500px; /* Aumentar el tamaño máximo de las imágenes */
     border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
@@ -529,12 +583,16 @@ body {
 }
 
 .more-images img:hover {
-    transform: scale(1.9); /* Efecto de zoom */
+    transform: scale(1.4); /* Efecto de zoom */
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
 /* Efecto hover ajustado para pantallas pequeñas */
 /* Efecto hover ajustado para pantallas pequeñas y medianas */
 @media (max-width: 768px) { 
+    #product-img{
+        max-width: 100%; /* Hacer que las imágenes ocupen todo el ancho disponible */
+        pointer-events: none; /* Desactivar interacciones con la imagen */
+    }
     .more-images img {
         max-width: 100%; /* Hacer que las imágenes ocupen todo el ancho disponible */
         pointer-events: none; /* Desactivar interacciones con la imagen */
