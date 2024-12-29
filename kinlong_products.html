@@ -2,14 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/coperation.css"> 
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/coperation.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="icon" href="icono/icono.jpg">
-    <title>Iron Tech Solutions</title>
+    <title >IronTech Solutions</title>
+
+    <!-- Script para Google Translate -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', // Idioma original de tu página
+                includedLanguages: 'es,zh-CN,en,ru', // Solo incluye español (es), chino mandarín (zh-CN) y inglés (en)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false // Previene la visualización automática de la barra
+            }, 'google_translate_element');
+    
+            // Event listener para detectar cambios en el idioma
+            google.translate.onLanguageSelect = function() {
+                setTimeout(function() {
+                    var banner = document.querySelector('.goog-te-banner-frame');
+                    if (banner) {
+                        banner.style.display = 'none'; // Ocultar la barra de traducción
+                    }
+                }, 100);
+            };
+        }
+    </script>
+    
+    <!-- Script de Google Translate -->
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
 </head>
 <body>
+    <!-- Aquí iría el contenido de tu página -->
+    <div id="google_translate_element"></div> <!-- Elemento de traducción -->
+     <!-- codigo no visible -->
     <script>
         document.addEventListener("contextmenu", event => event.preventDefault());
     </script>
@@ -31,13 +59,13 @@
     </script>
     <!---------------------------------menu----------------------------------------- -->
     <div class="sidebar">
-        <div class="logo-info">
+        <div class="logo-info notranslate"> <!-- Agrega la clase notranslate aquí -->
             <a href="https://www.facebook.com/profile.php?id=61563256145861&mibextid=ZbWKwL" target="_blank">
                 <i class="bx bxl-facebook icon"></i>
             </a>
             <h2>Iron&nbsp;Tech&nbsp;Solutions</h2>
             <i class="bx bx-menu" id="menu"></i>
-        </div> 
+        </div>
         <ul>
             <li>
                 <a href="main.html" class="btn-shine">
