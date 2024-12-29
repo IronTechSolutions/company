@@ -1928,16 +1928,11 @@ const products = [
 
 
 
-
-
-
-
-
-//---------------------------------------------------categoria 3----------------------------------------------------------------
+//--------------------------------------------------- SUbcategoria 3----------------------------------------------------------------
 
     {       //productos con id product-upvc-dw-hardware 3)
         id: 'product-upvc-dw-hardware',
-        title: 'Anti-bacteria Handle/PZSNK00130',
+        title: 'Anti-bacteria Handle/PZSNK00130', // 1 ready
         description: 'Suitable for Casement window.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ox5REEsuNJgrhi2MtbbinL5DjOuWz9cITysU6cMZ.jpg',
         details: '1. Material: aluminum alloy 2. Surface treatment: white.',
@@ -1948,7 +1943,7 @@ const products = [
     },
     {
         id: 'product-upvc-dw-hardware',
-        title: 'Anti-bacteria Handle/PZSNK00230',
+        title: 'Anti-bacteria Handle/PZSNK00230', // 2 ready
         description: 'Applicable window type: inner casement window, sliding door and window.',
         image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/mu49RteAZpXNvraYPUrXjlLCQY0OiAv5XNPv1a6O.jpg',
         details: '1. Material: aluminum alloy 2. Surface treatment: white.',
@@ -1957,6 +1952,525 @@ const products = [
             'https://imart.kinlong.com:9091/storage/uploads/pictures/e6Di1AT1x5MrUzLJfiU2yH22zWmktiDUBoyHHUQK.jpg'
         ]
     },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSNK00630', // 3 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/1tx73EcSZzeJvivS86iBAO16NX8V6dpYLWMCjSmy.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/majQrrV5m5lv49O6bBCs1xzybYVio5Q7bPp1Mx6s.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/DVfFb1D929l15gjUlk8aeXVpcxwY3JEeZUFTs3Kg.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSNK00730', // 4 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/m4wrmh28Kh7O1j1afEakUI1U6A8G8JV2I8GQcAUD.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Anup57vujfIiVXqntSYZaFRhBMxtGT1gsjs1g5xD.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/SKnAuKrm8veOsACoSQgoaaLu9Xg4PUOcP18bjzoF.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSNK02330', // 5 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/GtOB7uDdoZ1rHQ63zHVyHtLNa299QTtlHVIcgcEk.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/KMBs0foGFXRD9SKFrRtBvDlvT8E8MSTgfCda24e1.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSWK00140', // 6 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/Hpv07e2mHGy9hSx3iwsqqkFsdGBbQrNpRsJRevvc.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/lySDR5X0qXkWeHIeycsavCWxPNJ7cGYraXhNq0WV.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ikeIGEbaZRa4JhXO7kAJySheNdveBDraRRvBM0au.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/P11K-L40', // 7 ready
+        description: 'Applicable to external casement window and external hanging window. The surface uses the antibacterial powder new coating and the static electricity spraying craft. 25,000 repeated opening and closing tests, durable..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/gzrmy8X6uf2yZM7iPcVC4a5DPisP8KoFzYmPwqcd.jpg',
+        details: 'Main material: Zinc alloy Surface treatment: static electricity spraying Square Steel Specifications: 7 * 7 * 40.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/l4IwErdRzFht1OEOoEwUqdd3zhJr3It8tEHkqBxX.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSWK01040', // 8 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/aBJOKahRsjr5SsYcFxJaL0xZzjWJO2EHRIvCdEbr.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/2EX2vc3wQUTw5iHOiI7RRtuX6LY04gywTho5vdkK.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/04L0tgrcVpEelzVwaptat7dyIyWssQWzYZEeWqoy.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Handle/PZSWK00640', // 9 ready
+        description: 'Applicable window type: inner casement window, sliding door and window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/DZQCF88rcgt424PUfiE2xJh4sloDyUUsBlXVmdbM.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/sD1pUgVpZR9XVrlFS83noS3M0FdMdoxn4maTO0aA.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Door handle/PMZSK001', // 10 ready
+        description: 'Applicable door type: swing door, sliding door.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/JoEWJ6YU3Kf3GesjFVKaF5xaSAjPEC5x2xMdBLXa.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/GWBvlOc37IzZtkI2oBTbF9aEeEdehjNImjlhfWLS.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/iLSqolERrKAyQXThlZpL0BhIqAIOsCEfqVNlA9n9.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Anti-bacteria Door handle/PMZSK002', // 11 ready
+        description: 'Applicable door type: swing door, sliding door.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/pi3mF6hTU9Ohcmv76rP6O1fsdDcTTgKdUfZHcrO1.jpg',
+        details: '1. Material: aluminum alloy 2. Surface treatment: white.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/mxtONdnJihxVJb1VgSziUgGybaEoXTrp8t6SOKih.jpg',
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/Z0RaTkNJmnWgphb1Kz2AbbaE872YWZ64tdF1mrBz.jpg'
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Upper frame component/PHYSN002K', // 12 ready
+        description: 'Load-bearing parts Use with PHYSN002-04.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/CY0OE0vZZvCHMqMGNXYH3oBih1ONlzIC7WFdDfJn.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/RPziQp75ZNve48bcva0Sz7IJ2nKNjFFpHKLMWIMP.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYSN002-04', // 13 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/uy0X9nI3euZ0xl9ppx0GuL9ft0rj6GMnVK4Ml5Nj.jpg',
+        details: '1. Material: engineering plastic 2. Surface treatment: shell (black, white, non-standard color).',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/bB5Vktk6TJn1PsKwFZ7LdihAi3IEq7YPZvAb1adS.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Coner pull rod/PJBLGR0029', // 14 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/fmtuEJ6cYZjnaVxvRGKn1IffR6OhCSHMnLVJVUiJ.jpg',
+        details: '1. Material: carbon steel + stainless steel + engineering plastics 2. Distinguish between left and right.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/uzJax2NUlRzi1lCfYOT5NRs088tv5FT7CmRI5fPb.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYSN002-03A', // 15 ready
+        description: 'Decorative shell of various hinges.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/qUQUUNYAVCcqXROE9AD5NMkcyyyeTlRokWijfyFl.jpg',
+        details: 'Main material:plastic Surface treatment:Paint.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/JibCC1lITiqEvr4SvkENr28WAnMZd6RsDF7sdd8Y.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Coner pull rod/PJBLGR00213', // 16 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/TxdOxKaETCjd7vfvfqxrduSEnBIzOyb0NJTG11EJ.jpg',
+        details: '1. Material: carbon steel + stainless steel + engineering plastics 2. Distinguish between left and right.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/sHEGtNWYm2W5huSYvOTq3m7d1tHF7aALuFSSwGSO.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Up Frmae Component/PHYSN003K', // 17 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/5WNsmt8mcWIwxQQAR638AmHjzcKjulCJFj6DHhv1.jpg',
+        details: '1. Material: carbon steel + automotive steel.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/3uhGSAv38T4fP33gw7l1ZCgRkxmJK9Za3PPLC00w.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYSN003-02', // 18 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ImXauV0i1kUqIYt0ODaOVD7UYRkxrQXuLE8SWGSV.jpg',
+        details: '1. Material: engineering plastic 2. Surface treatment: shell (black, white, non-standard color).',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/pTvqRorkGHX8s4FlCMKjbi7VVYHEIIiUMK6tDxb9.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Corner pull rod/PJBLGR0039', // 19 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/tJ1njMHucVzeDY20GIaP2LbM3N6kDQBpLimMxW9K.jpg',
+        details: '1. Material: carbon steel + stainless steel + engineering plastics 2.Distinguish between left and right.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/HLW6y8WgrseifAwbOFPlRqcxVEFjZqPTeM0l2yXS.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Coner pull rod/PJBLGR00313', // 20 ready
+        description: 'Load-bearing parts Left and right (right).',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/mAfxCbxQ1gj8Z1RGf3C0lo4Cs9wBYuL1adAoAOcw.jpg',
+        details: 'Main material:Carbon steel Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ZU99tF8dJGIVBT9ezEWguUEVLhcDNMyD0zspULxO.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom frame component/PHYXN009KA', // 21 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/uGn8qTc0k3IYXe4N0DJwJ1ZpoJ1CkcBXJEfXW5si.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Bearing parts Product Number: PART-SuC-00061.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/QRmejfdtqBnNKw5rILjhHqblHqqpwRGmnJGglDvO.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom sash component/PHYXNR0099SC', // 22 ready
+        description: 'Load-bearing parts Left and right (right).',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/YlrfwGaavjtVaJUFybDbF3xmfkt4ZjSNpJrnywdk.jpg',
+        details: 'Main material:Carbon steel Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/qWEIJ6rHIxBHJBTdNFsYTFCvq5KKQnHX8q9yZQ1o.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom sash component/PHYXNR00913SC', // 23 ready
+        description: 'Load-bearing parts Left and right (right).',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ftl7tD5XyxAmTT15d3bxqNmx6LDR2DZHUu19yvdP.jpg',
+        details: 'Main material:Carbon steel Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/IM2RIiRc6huLlhHr3SsAg2omvw3YHwsLY6tJfEal.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom sash component/PHYXNR0109SC', // 24 ready
+        description: 'Load-bearing parts Left and right (right).',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/hV4fXxSWKZhQM4iIz5botBsuC63FiWHk0mzyxesW.jpg',
+        details: 'Main material:Carbon steel Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/NjnX6ad2TPMoYqZMYqgJPP2gOq8VACgACff8y8Mr.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom frame component/PHYXN010KA', // 25 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/wADT9nC7OPDFH3OE302mESMqrLQAkECzbFUXWIrq.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Ancillary product Product Number: PART-SuC-00065.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/b8rnQTcCil8Hk4VRFjavhIniVDcDIhBnbomG50a3.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom sash component/PHYXNR01013SC', // 26 ready
+        description: 'Load-bearing parts Left and right (right).',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/2nMsxwz4vULdo6wK8nfpAVtkwp9ekr962DmtQBjM.jpg',
+        details: 'Main material:Carbon steel Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/aTIa4KRaxZ3NEOcd3aVrPTqBeuwJgfNZUKu6WFug.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYXN0099-05', // 27 ready
+        description: 'Decorative shell, so that the appearance of simple, clean.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/hiNT9eKdkQ9ttiGblAJjAaua8ccxIJcSMMhEabUY.jpg',
+        details: 'Main material:plastic Surface treatment:Paint.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/hWxIGMM52WrrYJAW4XC6wuKPhEbVZc2CVfYYBszO.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYXN0099-06', // 28 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/pZ9reK8hVZRtCy9ThdgyowKj3Hvfule1mFP67u4p.jpg',
+        details: '1. Material: engineering plastic 2. Surface treatment: shell (black, white, non-standard color).',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/QGcnzfQsWbqTvE66KQf9vvL2FY8FNtXHtC2VLuRS.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Sash gasket/PHYXN002SDP', // 29 ready
+        description: 'For Sector Cantilever Bevel 15 ° Profile.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/MXnBWHQXxsZ8YVfLWfZNrUpx4bnQBDn1SIesMcIR.jpg',
+        details: 'Main material:PVC Surface treatment:Original Character.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/jRDKS1orRU3vYAoU6cyWK5uBvg3EzVQALa58n8hw.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Bottom sash component/PHYXN002S', // 30 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/EQr1Fe5Eh9svV3OvZxbl26mRApKVCnwks6aaYERv.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Bearing parts Product Number: PART-SuC-00071.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/vrn3WOKAJLJATzhcvStZpfQNPS5veVe3pPSOKgpM.png',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Out Cover/PHYXN002-03', // 32 ready
+        description: 'Decorative shell of various hinges.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/VdEdGv8dChTIetsPqP4UtKv0BmODoM7Veo3hhSDP.jpg',
+        details: 'Main material:plastic Surface treatment:Paint.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/48OA0UQOOaEzZoyJp8qIv44czVoo9rqDCBhHcqaT.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Spindle/PHYZ00709SC', // 33 ready
+        description: 'The middle hinge component has a fixed bearing function.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/XTLd0XzRhb4ylKqgwHol4l5XbntXvK0gN40gSa6z.jpg',
+        details: 'Main material:Zinc alloy + aluminum alloy + carbon steel Surface treatment:Electroplating (aluminum alloy without plating).',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ytzF1hF1Tr4n32XxNisz8uzDq832jJU8zQQps6B4.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Spindle/PHYZ0049SC', // 34 ready
+        description: 'The middle hinge component has a fixed bearing function..',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ZG1Fav7Yk7KDA0BPs6RhsxTv2k5SFO1HpZmDHJwG.jpg',
+        details: 'Main material:Zinc alloy + aluminum alloy + carbon steel Surface treatment:Electroplating (aluminum alloy without plating).',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/aWAhMoVuRTwNk5NgJt8CYSiYzLOlrnYJoB0XU5la.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Middle sash component/PHYZ00413SC', // 35 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/v5oloUm0QpWKekrIDzcF2NQF1a0HNyi7tPYcFXRn.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Bearing parts Product Number: PART-SuC-00077.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/TVInr9yR5hWjCLFFWY4JmW0Yc1WcvlTEzF9NK3nZ.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Middle lock/PZJS001', // 36 ready
+        description: 'For Internal Casement Windows.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/18BXTJLn3L6oat06RVR9HoKC325obeTZruPYV7wt.jpg',
+        details: 'Main material:Zinc alloy + plastic Surface treatment:Electroplate+Paint.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/8rnTR5VCCVree60P5BWFWfpA0vkKlUjBoJ3JSSHc.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS0049', // 37 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/KVLoZF5OzSxNE8bOLDmwIPlFVk0akDNhbWfi5OBZ.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Ancillary product Product Number: PART-SuC-00080.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/QeL3CXTIuTJ2gMPigX29Cql28v8IIf53XQRg97Y6.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS00413', // 38 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/VZDItRaLhh5Ou31jqumBrDWmgNxhkURQTB5lzF9w.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Ancillary product Product Number: PART-SuC-00081.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ShXnfbFfPFigb8p36WibqoZ570GnVAtxT9cSS2Hf.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS0059', // 39 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/QcG1HrvG1WSehVCydY96vSDT2iTPWuJ5jX6Q3rTf.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Ancillary product Product Number: PART-SuC-00082.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/giGEsfNZMAZs9cUYk9e0Ggke6lthoN4PrrYDhgB7.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS00513', // 40 ready
+        description: 'Applicable: UPVC Door and Window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/2ffkCfv3j1yZDPxTaXH5SS48PzqvY6x9GhRrkT0X.jpg',
+        details: 'Series: UPVC Door and Window Function attribute: Ancillary product Product Number: PART-SuC-00083.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/P3bv7NtcC7OCcAf8StioQh6XzngbB8w5zW0ddUKF.png',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS0039', // 41 ready
+        description: 'For Internal Casement Windows Used in conjunction with invisible hinges.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/pDieQeZPy5bfWLPGxsddDGlz9DmuxtIKNp2OCS2q.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/MaPtLcRUCtYnhnujE0g1Xw88cOvxQMR0F3YQ9xXR.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Concealed middle lock/PYZS00313', // 42 ready
+        description: 'For Internal Casement Windows Used in conjunction with invisible hinges.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/PDDe9RZNEhNwFsag7Vi6G6hT4z0iuERoRQdyJAH9.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Electroplate.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/4GyB19UdyRfWxuUpDsGUUQcNWENjgBW90hkm9QyR.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY011', // 43 ready
+        description: 'For internal casement windows, maximum load 40KG No more than 2，1 mm gaskets can be delivered.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/NzAbz9a2To3zdObhkPs1kfCEZH5qXQubOK9jrHJq.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Powder coating.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/dmWVeLjIvag22Gdjlhflw1PqOPgQGMtWQMQTn8ZS.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY012', // 44 ready
+        description: 'For internal casement windows, maximum load 40KG No more than 2，1 mm gaskets can be delivered Can meet the profile inclined 15 degrees installation.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ziTUpbLTv1HJa7VoAf37QdGTZLb3XMVmvSPmzyRS.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Powder coating.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/vDvmFohDwDpmqvBLbGnwNSKZMJz3rFlb3Q1jwkg0.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY0139', // 45 ready
+        description: 'White only Suitable for internal casement windows, maximum load 50KG Two different gasket thicknesses available.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/YZV5EYEZ4ehimEX2Kn4gkieUzBY31I2nB7pfM02g.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Powder coating.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/eGtPF819CED9JJa4ThqOvLZDOw0OyOaHe3AVQD1l.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY01313', // 46 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/ILT5Ksj3QlfUX0dDTj3eT2WzIP8v6bxcFadh79EX.jpg',
+        details: '1. Material: aluminum alloy + carbon steel 2. Surface treatment: white 3. Maximum load: 50kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/RlrGs3ZBmc71FutcAVC0HeVNL7HEBF2eb8adtKaI.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY016', // 47 ready
+        description: 'For internal casement windows, maximum load 40KG No more than 2，1 mm gaskets can be delivered Can meet the profile inclined 15 degrees installation.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/bteW4IMxtX6a9zf2kCzSlHGlxCj2jSZiZwJiwggF.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Powder coating.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/f5tvUQGNUmRuRfgkMHcMl1DX8lsAiU7FLz4wtkWP.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY01713', // 48 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/pA3lwLJXpJCU5LrnfVtRIIrWP2AjNWEfULCk6a3e.jpg',
+        details: '1. Material: zinc alloy 2. Surface treatment: white only 3. Max load: 90kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/V7442XEhqIQB8BzbAXyZJP8XC6jbo50VGUZD5bMV.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY019', // 49 ready
+        description: 'Applicable window type: inner casement window.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/73boyx3eq4N3ucdsthhtRNH4mGkjh3XwVfWT5uiu.jpg',
+        details: '1. Material: zinc alloy 2. Surface treatment: (black, white, non-standard) 3. Maximum load: 40kg.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/aUEw3BhIZjFOryXcianWykHkpxEc5JlJk7grJrfJ.jpg',
+            //''
+        ]
+    },
+    {
+        id: 'product-upvc-dw-hardware',
+        title: 'Hinge/PHY019/5', // 50 ready
+        description: 'For internal casement windows, maximum load 40KG No more than 2，1 mm gaskets can be delivered Can meet the profile inclined 15 degrees installation.',
+        image: 'https://imart.kinlong.com:9091/storage/uploads/pictures/DImFRdpDZptKjjXU5vzyZlf0rDnuuhPK3fY85pce.jpg',
+        details: 'Main material:Zinc alloy Surface treatment:Powder coating.',
+        moreImages: [
+            'https://imart.kinlong.com:9091/storage/uploads/pictures/ykwzQJCXIPRESARgYM330aNbaOnriCnQkzgm1n0W.jpg',
+            //''
+        ]
+    },
+
+
 
 
 
@@ -2449,7 +2963,7 @@ function loadProductsById(productId) {
         card.classList.add("product-card");
         card.innerHTML = `
             <img src="${product.image}" alt="${product.title}" class="product-image">
-            <h3>${product.title}</h3>
+            <h3 style="font-size: 15px;">${product.title}</h3>
             <p class="product-description">${truncated}</p>
             ${truncated !== full ? '<a href="#" class="more-info">See more...</a>' : ''}
         `;
